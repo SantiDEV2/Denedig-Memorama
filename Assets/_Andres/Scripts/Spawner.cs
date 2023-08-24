@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int filas = 8;
+    public int columnas = 3;
+    public Vector2 espacio = Vector2.zero;
+
+    public GameObject Carta;
+    public Transform SpawnArea;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        for (int x = 0; x < filas; x++)
+        {
+            for (int y = 0; y < columnas; y++)
+            {
+                GameObject cartas = Instantiate(Carta);
+                cartas.transform.position = new Vector2(x * espacio.x - 4.91f, y * espacio.y - 1.55f);
+            }
+        }
     }
 }
