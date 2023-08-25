@@ -181,10 +181,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa9fc3d396b9124490164c0a1df910b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ImagenesdeCartas:
+  - {fileID: 21300000, guid: 9bb60824e005a4442921ebd7b743d3e9, type: 3}
+  - {fileID: 21300000, guid: 62b2d4a87996cc24baa418967ece2e43, type: 3}
+  - {fileID: 21300000, guid: 257d4af31cec9234fa3f024cd81dd312, type: 3}
+  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: 9bb60824e005a4442921ebd7b743d3e9, type: 3}
+  - {fileID: 21300000, guid: 62b2d4a87996cc24baa418967ece2e43, type: 3}
+  - {fileID: 21300000, guid: 257d4af31cec9234fa3f024cd81dd312, type: 3}
+  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: 9bb60824e005a4442921ebd7b743d3e9, type: 3}
+  - {fileID: 21300000, guid: 62b2d4a87996cc24baa418967ece2e43, type: 3}
+  - {fileID: 21300000, guid: 257d4af31cec9234fa3f024cd81dd312, type: 3}
+  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   filas: 8
   columnas: 3
   espacio: {x: 1.4, y: 1.7}
-  Carta: {fileID: 1607762000779846440, guid: d52facf61cbb8744f92b3ce1cabe0a16, type: 3}
+  Carta: {fileID: 8107102813139502032, guid: c99d7207bb570d5429c2df5ea44f9659, type: 3}
   SpawnArea: {fileID: 1722213937}
 --- !u!1 &502312132
 GameObject:
