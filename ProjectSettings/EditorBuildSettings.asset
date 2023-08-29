@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Memorama.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/_Ana/Scenes/Test.unity
+    guid: 461ab97cc88bddc4fac48bac1e6e6360
+  - enabled: 1
+    path: Assets/_Ana/Scenes/Menu.unity
+    guid: a4d7c1cd41d0f894594046e44caead1a
+  - enabled: 1
+    path: Assets/_Ana/Scenes/Ajustes.unity
+    guid: f2df4fc07c2303045a7b1036ba771170
   m_configObjects: {}
