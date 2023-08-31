@@ -14,10 +14,29 @@ public class Comparisons : MonoBehaviour
     public static int firstID;
     public static int secondID;
 
-    public static bool timerend = false;
+    public static bool Errortimerend = false;
+    public static bool Checktimerend = false;
 
     public static GameObject cartavol1;
     public static GameObject cartavol2;
+
+    private int Cuentalugar = 1;
+
+    //Transforms
+    #region
+    public Transform pila1;
+    public Transform pila2;
+    public Transform pila3;
+    public Transform pila4;
+    public Transform pila5;
+    public Transform pila6;
+    public Transform pila7;
+    public Transform pila8;
+    public Transform pila9;
+    public Transform pila10;
+    public Transform pila11;
+    public Transform pila12;
+    #endregion
 
     void Update()
     {
@@ -31,6 +50,13 @@ public class Comparisons : MonoBehaviour
             {
                 aciertos = aciertos + 1;
                 CheckText.text = aciertos.ToString() + " / 12";
+                CartasVolteadas = 0;
+                Checktimerend = true;
+
+                if(Checktimerend == true)
+                {
+                    StartCoroutine(Truespaw());
+                }
             }
 
             if(firstID != secondID)
@@ -38,9 +64,9 @@ public class Comparisons : MonoBehaviour
                 errores = errores + 1;
                 WrongText.text = errores.ToString();
                 CartasVolteadas = 0;
-                timerend = true;
+                Errortimerend = true;
 
-                if(timerend == true)
+                if(Errortimerend == true)
                 {
                     StartCoroutine(Corspaw());
                 }
@@ -50,7 +76,7 @@ public class Comparisons : MonoBehaviour
 
     private IEnumerator Corspaw()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.5f);
 
         cartavol1.transform.Rotate(0, 180, 0);
         cartavol2.transform.Rotate(0, 180, 0);
@@ -58,8 +84,95 @@ public class Comparisons : MonoBehaviour
         cartavol1.GetComponent<BoxCollider>().enabled = true;
         cartavol2.GetComponent<BoxCollider>().enabled = true;
 
-        timerend = false;
+        Errortimerend = false;
         Cursor.lockState = CursorLockMode.None;
         StopAllCoroutines();
+    }
+
+    private IEnumerator Truespaw()
+    {
+        yield return new WaitForSeconds(.5f);
+
+        CorrectParPos();
+
+        Checktimerend = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cuentalugar = Cuentalugar + 1;
+        StopAllCoroutines();
+    }
+
+    void CorrectParPos()
+    {
+        if (Cuentalugar == 1)
+        {
+            cartavol1.transform.position = pila1.transform.position;
+            cartavol2.transform.position = pila1.transform.position;
+        }
+
+        if (Cuentalugar == 2)
+        {
+            cartavol1.transform.position = pila2.transform.position;
+            cartavol2.transform.position = pila2.transform.position;
+        }
+
+        if (Cuentalugar == 3)
+        {
+            cartavol1.transform.position = pila3.transform.position;
+            cartavol2.transform.position = pila3.transform.position;
+        }
+
+        if (Cuentalugar == 4)
+        {
+            cartavol1.transform.position = pila4.transform.position;
+            cartavol2.transform.position = pila4.transform.position;
+        }
+
+        if (Cuentalugar == 5)
+        {
+            cartavol1.transform.position = pila5.transform.position;
+            cartavol2.transform.position = pila5.transform.position;
+        }
+
+        if (Cuentalugar == 6)
+        {
+            cartavol1.transform.position = pila6.transform.position;
+            cartavol2.transform.position = pila6.transform.position;
+        }
+
+        if (Cuentalugar == 7)
+        {
+            cartavol1.transform.position = pila7.transform.position;
+            cartavol2.transform.position = pila7.transform.position;
+        }
+
+        if (Cuentalugar == 8)
+        {
+            cartavol1.transform.position = pila8.transform.position;
+            cartavol2.transform.position = pila8.transform.position;
+        }
+
+        if (Cuentalugar == 9)
+        {
+            cartavol1.transform.position = pila9.transform.position;
+            cartavol2.transform.position = pila9.transform.position;
+        }
+
+        if (Cuentalugar == 10)
+        {
+            cartavol1.transform.position = pila10.transform.position;
+            cartavol2.transform.position = pila10.transform.position;
+        }
+
+        if (Cuentalugar == 11)
+        {
+            cartavol1.transform.position = pila11.transform.position;
+            cartavol2.transform.position = pila11.transform.position;
+        }
+
+        if (Cuentalugar == 12)
+        {
+            cartavol1.transform.position = pila12.transform.position;
+            cartavol2.transform.position = pila12.transform.position;
+        }
     }
 }
