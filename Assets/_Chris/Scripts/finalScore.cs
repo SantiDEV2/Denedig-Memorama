@@ -6,9 +6,10 @@ using UnityEngine;
 public class finalScore : MonoBehaviour
 {
     
-    public TMP_Text timeText;
-    public float time;
+    public  TMP_Text timeText1;
+    public float time1;
     public GameObject panelPuntuacion;
+    public float score;
 
 
     // Start is called before the first frame update
@@ -23,7 +24,7 @@ public class finalScore : MonoBehaviour
     // Update is called once per frame
     private void Puntuacion ()
     {
-        if (Comparisons.CartasVolteadas >= 12)
+        if (Comparisons.CartasVolteadas >= 2)
         {
             Debug.Log("DETECTE ERROR");
             panelPuntuacion.SetActive(true);
@@ -33,8 +34,13 @@ public class finalScore : MonoBehaviour
 
     }
 
-    public void finalTime (TimeAccountChris finalScore)
+    public void finalTime ()
     {
-        float time = finalScore.time; 
+        if (panelPuntuacion == true)
+        {
+           TimeAccountChris timeChris = FindObjectOfType<TimeAccountChris>();
+           //timeText1 = TimeAccountChris
+
+        }
     }
 }

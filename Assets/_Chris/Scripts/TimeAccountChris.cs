@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class TimeAccountChris : MonoBehaviour
 {
-    public TMP_Text timetext;
-    public  float time;
+    public  static TMP_Text timetext;
+    public float time;
     public GameObject canvasPuntuacion;
 
     // Update is called once per frame
