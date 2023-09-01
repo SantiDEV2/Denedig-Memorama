@@ -5,42 +5,27 @@ using UnityEngine;
 
 public class finalScore : MonoBehaviour
 {
-    
-    public  TMP_Text timeText1;
-    public float time1;
-    public GameObject panelPuntuacion;
+    public TMP_Text tiempo;
     public float score;
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        
-    }
-    private void Update()
-    {
-        Puntuacion();
-    }
-    // Update is called once per frame
-    private void Puntuacion ()
-    {
-        if (Comparisons.CartasVolteadas >= 2)
-        {
-            Debug.Log("DETECTE ERROR");
-            panelPuntuacion.SetActive(true);
-            Debug.Log("Active Panel");
-        }
-            
-
+        // Obtener el tiempo guardado en PlayerPrefs
+        Debug.Log("Obtuve el tiempo del pasado");
+        float tiempoGuardado = PlayerPrefs.GetFloat("TiempoGuardado", 0f);
+        Debug.Log("Tiempo");
+        // Mostrar el tiempo en el Text
+        tiempo.text = "Tiempo: " + tiempoGuardado.ToString("F2");
+    
     }
 
-    public void finalTime ()
-    {
-        if (panelPuntuacion == true)
-        {
-           TimeAccountChris timeChris = FindObjectOfType<TimeAccountChris>();
-           //timeText1 = TimeAccountChris
+ 
 
-        }
-    }
+    
 }
+ 
+
+    
+
+
+

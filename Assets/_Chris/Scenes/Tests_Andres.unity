@@ -133,9 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 391373800}
   - component: {fileID: 391373801}
-  - component: {fileID: 391373803}
-  - component: {fileID: 391373804}
   - component: {fileID: 391373805}
+  - component: {fileID: 391373803}
   m_Layer: 0
   m_Name: GameMan
   m_TagString: Untagged
@@ -200,24 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0633be9453b0f61499e4d9ae591c488f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timetext: {fileID: 508220696}
   time: 0
-  canvasPuntuacion: {fileID: 0}
---- !u!114 &391373804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391373798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 824106bf0d5836a44abdcc47424eb85e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeText1: {fileID: 566631046}
-  time1: 0
-  panelPuntuacion: {fileID: 1945331825}
-  score: 0
+  canvasPuntuacion: {fileID: 1945331825}
 --- !u!114 &391373805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +216,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CheckText: {fileID: 0}
   WrongText: {fileID: 0}
+  pila1: {fileID: 0}
+  pila2: {fileID: 0}
+  pila3: {fileID: 0}
+  pila4: {fileID: 0}
+  pila5: {fileID: 0}
+  pila6: {fileID: 0}
+  pila7: {fileID: 0}
+  pila8: {fileID: 0}
+  pila9: {fileID: 0}
+  pila10: {fileID: 0}
+  pila11: {fileID: 0}
+  pila12: {fileID: 0}
 --- !u!1 &466517264
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,8 +293,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -333,7 +329,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -29.855042, w: 0}
+  m_margin: {x: 0, y: 0, z: -1.2125854, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -364,8 +360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -60.000015}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 18.006111, y: -70.95154}
+  m_SizeDelta: {x: 400.4971, y: 71.903}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &502312132
 GameObject:
@@ -1378,10 +1374,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945331825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d2bc87c51fc6c64eb355180edc90d76, type: 3}
+  m_Script: {fileID: 11500000, guid: 824106bf0d5836a44abdcc47424eb85e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timetext: {fileID: 466517265}
+  tiempo: {fileID: 466517265}
+  score: 0
 --- !u!1 &66778334312476657
 GameObject:
   m_ObjectHideFlags: 0

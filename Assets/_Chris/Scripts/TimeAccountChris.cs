@@ -5,22 +5,31 @@ using UnityEngine;
 
 public class TimeAccountChris : MonoBehaviour
 {
-    public  static TMP_Text timetext;
+   
+    public TMP_Text timetext;
     public float time;
     public GameObject canvasPuntuacion;
+    private bool detenerTiempo = false;
 
-    // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-        DisplayTime(time);
-       /* if (canvasPuntuacion(false))
+        if (!detenerTiempo) // Solo avanza el tiempo si detenerTiempo es falso
         {
-            canvasPuntuacion.SetActive(true);
-        }*/
+            time += Time.deltaTime;
+            DisplayTime(time);
+            Puntuacion();
+        }
+    }
+    private void FinalizarJuego()
+    {
+        Debug.Log("Se guardo tiempo en prefs ");
+        PlayerPrefs.SetFloat("TiempoGuardado", time); // Guarda el tiempo en PlayerPrefs
+        Debug.Log("vamos bien ");
+        PlayerPrefs.Save();
+        Debug.Log("Se guardo bien  ");
     }
 
-     public void DisplayTime(float TimetoDisplay)
+    public void DisplayTime(float TimetoDisplay)
     {
         if (TimetoDisplay < 0)
         {
@@ -30,16 +39,22 @@ public class TimeAccountChris : MonoBehaviour
         {
             TimetoDisplay += 1;
         }
-       
+
         float minutes = Mathf.FloorToInt(TimetoDisplay / 60);
         float seconds = Mathf.FloorToInt(TimetoDisplay % 60);
-        /*if (seconds == 2)
-        {
-            Debug.Log("GameOver");
-        }*/
 
         timetext.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
+    private void Puntuacion()
+    {
+        if (Comparisons.errores >= 1)
+        {
+            canvasPuntuacion.SetActive(true);
+            detenerTiempo = true;
+            FinalizarJuego(); // Llama a FinalizarJuego cuando se cumpla la condición
+        }
+    }
 
+   
 }
