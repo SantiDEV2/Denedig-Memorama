@@ -11,8 +11,18 @@ public class TimeCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-        DisplayTime(time);
+        if(Comparisons.Cuentalugar < 13)
+        {
+            time += Time.deltaTime;
+            DisplayTime(time);
+        }
+        
+        if(Comparisons.Cuentalugar >= 13)
+        {
+            time += 0;
+            DisplayTime(time);
+            print(time);
+        }
     }
 
     void DisplayTime(float TimetoDisplay)
