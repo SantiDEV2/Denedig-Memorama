@@ -20,7 +20,7 @@ public class Comparisons : MonoBehaviour
     public static GameObject cartavol1;
     public static GameObject cartavol2;
 
-    private int Cuentalugar = 1;
+    public static int Cuentalugar = 1;
 
     //Transforms
     #region
@@ -106,73 +106,73 @@ public class Comparisons : MonoBehaviour
         if (Cuentalugar == 1)
         {
             cartavol1.transform.position = pila1.transform.position;
-            cartavol2.transform.position = pila1.transform.position;
+            cartavol2.transform.position = pila1.transform.position + new Vector3(.12f,0,0);
         }
 
         if (Cuentalugar == 2)
         {
             cartavol1.transform.position = pila2.transform.position;
-            cartavol2.transform.position = pila2.transform.position;
+            cartavol2.transform.position = pila2.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 3)
         {
             cartavol1.transform.position = pila3.transform.position;
-            cartavol2.transform.position = pila3.transform.position;
+            cartavol2.transform.position = pila3.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 4)
         {
             cartavol1.transform.position = pila4.transform.position;
-            cartavol2.transform.position = pila4.transform.position;
+            cartavol2.transform.position = pila4.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 5)
         {
             cartavol1.transform.position = pila5.transform.position;
-            cartavol2.transform.position = pila5.transform.position;
+            cartavol2.transform.position = pila5.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 6)
         {
             cartavol1.transform.position = pila6.transform.position;
-            cartavol2.transform.position = pila6.transform.position;
+            cartavol2.transform.position = pila6.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 7)
         {
             cartavol1.transform.position = pila7.transform.position;
-            cartavol2.transform.position = pila7.transform.position;
+            cartavol2.transform.position = pila7.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 8)
         {
             cartavol1.transform.position = pila8.transform.position;
-            cartavol2.transform.position = pila8.transform.position;
+            cartavol2.transform.position = pila8.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 9)
         {
             cartavol1.transform.position = pila9.transform.position;
-            cartavol2.transform.position = pila9.transform.position;
+            cartavol2.transform.position = pila9.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 10)
         {
             cartavol1.transform.position = pila10.transform.position;
-            cartavol2.transform.position = pila10.transform.position;
+            cartavol2.transform.position = pila10.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 11)
         {
             cartavol1.transform.position = pila11.transform.position;
-            cartavol2.transform.position = pila11.transform.position;
+            cartavol2.transform.position = pila11.transform.position + new Vector3(.12f, 0, 0);
         }
 
         if (Cuentalugar == 12)
         {
             cartavol1.transform.position = pila12.transform.position;
-            cartavol2.transform.position = pila12.transform.position;
+            cartavol2.transform.position = pila12.transform.position + new Vector3(.12f, 0, 0);
         }
     }
 }
