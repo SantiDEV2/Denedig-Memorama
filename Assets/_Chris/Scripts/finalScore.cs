@@ -37,7 +37,7 @@ public class finalScore : MonoBehaviour
     if (tiempoGuardado1 <= 50)
     {
         Debug.Log("Empece condicion");
-        puntos += 10 * (50 - (int)tiempoGuardado1); // Añadir 10 puntos por cada unidad por debajo de 50
+        puntos += 10 * (50 - (int)tiempoGuardado1); // AÃ±adir 10 puntos por cada unidad por debajo de 50
     }
     else
     {
@@ -49,7 +49,7 @@ public class finalScore : MonoBehaviour
         puntos = 0; // Asegurarse de que el puntaje no sea negativo
     }
 
-    textScore.text = $"Felicidades juntaste {puntos} puntos"; // Actualizar el texto de la puntuación
+    textScore.text = $"Felicidades juntaste {puntos} puntos"; // Actualizar el texto de la puntuaciÃ³n
   }
 }
 

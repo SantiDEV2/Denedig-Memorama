@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Screenshot : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int _i=0;
+    void Update()
     {
-        ScreenCapture.CaptureScreenshot("screenshot.png");  
-        Debug.Log("A screenshot was taken!"); 
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _i++;
+            ScreenCapture.CaptureScreenshot("screenshot{_i}.png");  
+            Debug.Log("A screenshot was taken!"); 
+        }
     }
 }
