@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -6,7 +6,19 @@ using UnityEngine;
 public class TimeCount : MonoBehaviour
 {
     public TMP_Text timetext;
-    private float time;
+    public TMP_Text FinalTimeText;
+    public TMP_Text Errors;
+    public TMP_Text textScore;
+
+    public float time;
+    public GameObject canvasPuntuacion;
+
+    float puntos = 9999f;
+
+    void Start()
+    {
+        canvasPuntuacion.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
@@ -15,6 +27,12 @@ public class TimeCount : MonoBehaviour
         {
             time += Time.deltaTime;
             DisplayTime(time);
+            puntos = puntos - 1 * Time.deltaTime;
+
+            if(puntos <= 0)
+            {
+                puntos = 0;
+            }
         }
         
         if(Comparisons.Cuentalugar >= 13)
@@ -22,6 +40,10 @@ public class TimeCount : MonoBehaviour
             time += 0;
             DisplayTime(time);
             print(time);
+            FinalTimeText.text = time.ToString() + " segundos";
+            Errors.text = Comparisons.errores.ToString(); 
+            canvasPuntuacion.SetActive(true);
+            textScore.text = "Felicidades juntaste " + puntos.ToString(); // Actualizar el texto de la puntuación
         }
     }
 
