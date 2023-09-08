@@ -232,6 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timetext: {fileID: 508220696}
   time: 0
+  puntaje: 0
   canvasPuntuacion: {fileID: 1945331825}
 --- !u!114 &391373805
 MonoBehaviour:
@@ -1544,10 +1545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 824106bf0d5836a44abdcc47424eb85e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempo: {fileID: 466517265}
+  tiempo1: {fileID: 466517265}
   textScore: {fileID: 1934693912}
-  score1: 0
-  score2: 0
 --- !u!1 &66778334312476657
 GameObject:
   m_ObjectHideFlags: 0

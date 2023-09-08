@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class TimeAccountChris : MonoBehaviour
 {
-   
+
     public TMP_Text timetext;
     public float time;
+    public int puntaje;
     public GameObject canvasPuntuacion;
     private bool detenerTiempo = false;
 
@@ -19,14 +20,27 @@ public class TimeAccountChris : MonoBehaviour
             DisplayTime(time);
             Puntuacion();
         }
+        if (time >= 0)
+        {
+            puntaje = 100;
+        }
+        if (time >= 50)
+        {
+            puntaje = 50;
+        }
+        if (time >= 100)
+        {
+            puntaje = 25;
+        }
     }
     private void FinalizarJuego()
     {
-        Debug.Log("Se guardo tiempo en prefs ");
+       
         PlayerPrefs.SetFloat("TiempoGuardado", time); // Guarda el tiempo en PlayerPrefs
-        Debug.Log("vamos bien ");
+        PlayerPrefs.SetInt("PuntajeGuardado", puntaje);
+       
         PlayerPrefs.Save();
-        Debug.Log("Se guardo bien  ");
+        
     }
 
     public void DisplayTime(float TimetoDisplay)
