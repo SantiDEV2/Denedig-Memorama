@@ -28,6 +28,10 @@ public class TimeAccountChris : MonoBehaviour
         {
             puntaje = 50;
         }
+        if (time >= 100)
+        {
+            puntaje = 25;
+        }
     }
     private void FinalizarJuego()
     {
