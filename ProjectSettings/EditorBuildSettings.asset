@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Ana/Scenes/Ajustes.unity
     guid: f2df4fc07c2303045a7b1036ba771170
+  - enabled: 1
+    path: Assets/_Andres/Scenes/Menu 1.unity
+    guid: f7cb4ed16a938904084b96f2f070fb45
+  - enabled: 1
+    path: Assets/_Andres/Scenes/Tests.unity
+    guid: 825930ff3fb66094281327dd247ab8f7
+  - enabled: 1
+    path: Assets/_Andres/Scenes/Table 1.unity
+    guid: 72d652c594357444680cc3f633d7002b
+  - enabled: 1
+    path: Assets/_Andres/Scenes/Ajustes 1.unity
+    guid: 2eaa9a47cda25eb4ba7162a2933136a3
   m_configObjects: {}
