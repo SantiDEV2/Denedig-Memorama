@@ -17,6 +17,7 @@ public class TimeCount : MonoBehaviour
 
     void Start()
     {
+        time = 0;
         canvasPuntuacion.SetActive(false);
     }
 

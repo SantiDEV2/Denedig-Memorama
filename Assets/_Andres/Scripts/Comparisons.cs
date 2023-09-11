@@ -38,6 +38,13 @@ public class Comparisons : MonoBehaviour
     public Transform pila12;
     #endregion
 
+    void Start()
+    {
+        Cuentalugar = 1;
+        aciertos = 0;
+        errores = 0;
+    }
+
     void Update()
     {
         if (CartasVolteadas == 2)
