@@ -19,6 +19,7 @@ public class TimeAccountChris : MonoBehaviour
             time += Time.deltaTime;
             DisplayTime(time);
             Puntuacion();
+            Cartaslugar();
         }
         if (time >= 0)
         {
@@ -32,12 +33,15 @@ public class TimeAccountChris : MonoBehaviour
         {
             puntaje = 25;
         }
+
+        
     }
     private void FinalizarJuego()
     {
        
         PlayerPrefs.SetFloat("TiempoGuardado", time); // Guarda el tiempo en PlayerPrefs
         PlayerPrefs.SetInt("PuntajeGuardado", puntaje);
+       
        
         PlayerPrefs.Save();
         
@@ -66,9 +70,20 @@ public class TimeAccountChris : MonoBehaviour
         {
             canvasPuntuacion.SetActive(true);
             detenerTiempo = true;
+           // PlayerPrefs.SetInt("ErroresGuardado", errores);
             FinalizarJuego(); // Llama a FinalizarJuego cuando se cumpla la condición
         }
     }
-
+    private void Cartaslugar()
+    {
+        if (Comparisons.Cuentalugar < 13)
+        {
+            canvasPuntuacion.SetActive(true);
+            detenerTiempo = true;
+            // PlayerPrefs.SetInt("ErroresGuardado", errores);
+            FinalizarJuego(); // Llama a FinalizarJuego cuando se cumpla la condición
+        }
+    }
+    
    
 }

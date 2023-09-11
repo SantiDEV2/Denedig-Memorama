@@ -20,7 +20,7 @@ public class Comparisons : MonoBehaviour
     public static GameObject cartavol1;
     public static GameObject cartavol2;
 
-    public static int Cuentalugar = 1;
+    public static int Cuentalugar = 12;
 
     //Transforms
     #region

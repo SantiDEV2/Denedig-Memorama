@@ -17,13 +17,14 @@ public class TimeCount : MonoBehaviour
 
     void Start()
     {
-        canvasPuntuacion.SetActive(false);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Comparisons.Cuentalugar < 13)
+        
+        if (Comparisons.Cuentalugar < 13)
         {
             time += Time.deltaTime;
             DisplayTime(time);
@@ -45,6 +46,7 @@ public class TimeCount : MonoBehaviour
             canvasPuntuacion.SetActive(true);
             textScore.text = "Felicidades juntaste " + puntos.ToString(); // Actualizar el texto de la puntuación
         }
+        
     }
 
     void DisplayTime(float TimetoDisplay)
