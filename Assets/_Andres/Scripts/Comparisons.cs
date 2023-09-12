@@ -21,6 +21,7 @@ public class Comparisons : MonoBehaviour
     public static GameObject cartavol2;
 
     public static int Cuentalugar = 12;
+    public Cards card;
 
     //Transforms
     #region
@@ -85,14 +86,18 @@ public class Comparisons : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
 
-        cartavol1.transform.Rotate(0, 180, 0);
-        cartavol2.transform.Rotate(0, 180, 0);
+        //cartavol1.transform.Rotate(0, 180, 0);
+        //cartavol2.transform.Rotate(0, 180, 0);
+
+        //cartavol1.GetComponent<Animator>().SetTrigger("Close");
+        //cartavol2.GetComponent<Animator>().SetTrigger("Close");
 
         cartavol1.GetComponent<BoxCollider>().enabled = true;
         cartavol2.GetComponent<BoxCollider>().enabled = true;
 
         Errortimerend = false;
         Cursor.lockState = CursorLockMode.None;
+        //card.animopen.enabled = false;
         StopAllCoroutines();
     }
 

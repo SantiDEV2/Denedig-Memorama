@@ -9,15 +9,12 @@ public class Cards : MonoBehaviour
 
     public int selectcart;
     public GameObject cartaselec;
-
-    void Update()
-    {
-       
-    }
+    public Animator animopen;
 
     public void OnMouseDown()
     {
-        this.transform.Rotate(0,180,0);
+        animopen.SetTrigger("Open");
+        //this.transform.Rotate(0,180,0);
         Comparisons.CartasVolteadas += 1;
         selectcart = this.ID;
         cartaselec = this.gameObject;
@@ -34,7 +31,7 @@ public class Cards : MonoBehaviour
             Comparisons.secondID = selectcart;
             Comparisons.cartavol2 = cartaselec;
             this.GetComponent<BoxCollider>().enabled = false;
-        }        
+        }     
     }
 
     public void AsignarImagendeCarta(Sprite imagen)
