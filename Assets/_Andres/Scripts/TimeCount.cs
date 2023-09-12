@@ -12,19 +12,22 @@ public class TimeCount : MonoBehaviour
 
     public float time;
     public GameObject canvasPuntuacion;
+    public GameObject canvasScoreBoard;
 
-    float puntos = 9999f;
+    public  float puntos = 9999f;
+    
 
     void Start()
     {
         time = 0;
         canvasPuntuacion.SetActive(false);
+        canvasScoreBoard.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Comparisons.Cuentalugar < 13)
+        if(Comparisons.Cuentalugar < 12)
         {
             time += Time.deltaTime;
             DisplayTime(time);
@@ -44,7 +47,9 @@ public class TimeCount : MonoBehaviour
             FinalTimeText.text = time.ToString() + " segundos";
             Errors.text = Comparisons.errores.ToString(); 
             canvasPuntuacion.SetActive(true);
-            textScore.text = "Felicidades juntaste " + puntos.ToString(); // Actualizar el texto de la puntuación
+            textScore.text = "" + puntos.ToString(); // Actualizar el texto de la puntuación
+            canvasScoreBoard.SetActive(true);
+
         }
     }
 
