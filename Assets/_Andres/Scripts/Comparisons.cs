@@ -89,8 +89,8 @@ public class Comparisons : MonoBehaviour
         //cartavol1.transform.Rotate(0, 180, 0);
         //cartavol2.transform.Rotate(0, 180, 0);
 
-        //cartavol1.GetComponent<Animator>().SetTrigger("Close");
-        //cartavol2.GetComponent<Animator>().SetTrigger("Close");
+        cartavol1.GetComponent<Animator>().SetTrigger("Close");
+        cartavol2.GetComponent<Animator>().SetTrigger("Close");
 
         cartavol1.GetComponent<BoxCollider>().enabled = true;
         cartavol2.GetComponent<BoxCollider>().enabled = true;
