@@ -21,7 +21,7 @@ public class Comparisons : MonoBehaviour
     public static GameObject cartavol2;
 
     public static int Cuentalugar = 12;
-    public Cards card;
+    public Settings1 settings1;
 
     //Transforms
     #region
@@ -63,6 +63,7 @@ public class Comparisons : MonoBehaviour
 
                 if(Checktimerend == true)
                 {
+                    settings1.PlaySfx("EXITO"); //Sonido de Par correcto
                     StartCoroutine(Truespaw());
                 }
             }
@@ -76,6 +77,7 @@ public class Comparisons : MonoBehaviour
 
                 if(Errortimerend == true)
                 {
+                    settings1.PlaySfx("ERROR"); //Sonido de error
                     StartCoroutine(Corspaw());
                 }
             }
@@ -97,7 +99,6 @@ public class Comparisons : MonoBehaviour
 
         Errortimerend = false;
         Cursor.lockState = CursorLockMode.None;
-        //card.animopen.enabled = false;
         StopAllCoroutines();
     }
 

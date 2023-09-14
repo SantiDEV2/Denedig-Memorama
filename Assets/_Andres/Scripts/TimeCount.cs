@@ -15,7 +15,7 @@ public class TimeCount : MonoBehaviour
     public GameObject canvasScoreBoard;
 
     public  float puntos = 9999f;
-    
+    public Settings1 settings1;
 
     void Start()
     {
@@ -41,6 +41,7 @@ public class TimeCount : MonoBehaviour
         
         if(Comparisons.Cuentalugar >= 13)
         {
+            settings1.PlaySfx("SUCESO"); //Sonido de Victoria
             time += 0;
             DisplayTime(time);
             print(time);
@@ -49,7 +50,6 @@ public class TimeCount : MonoBehaviour
             canvasPuntuacion.SetActive(true);
             textScore.text = "" + puntos.ToString(); // Actualizar el texto de la puntuación
             canvasScoreBoard.SetActive(true);
-
         }
     }
 
@@ -59,6 +59,7 @@ public class TimeCount : MonoBehaviour
         {
             TimetoDisplay = 0;
         }
+
         else if (TimetoDisplay > 0)
         {
             TimetoDisplay += 1;

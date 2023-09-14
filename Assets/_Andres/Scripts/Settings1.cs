@@ -25,13 +25,6 @@ public class Settings1 : MonoBehaviour
     public Slider SliderGreen;
     public Slider SliderBlue;
 
-    //[Header("Sliders Size")]
-    //public Slider SliderSize;
-
-    [Header("Crosshair")]
-    public Image SpriteCrosshair;
-    public Image SpriteCrosshairSettings;
-
      private void Awake()
     {
         if (Instance == null)
@@ -59,9 +52,6 @@ public class Settings1 : MonoBehaviour
         SliderRed.maxValue = 1;
         SliderBlue.maxValue = 1;
         SliderGreen.maxValue = 1;
-
-        SpriteCrosshair.color = new Vector4(SliderRed.value, SliderBlue.value, SliderGreen.value, 1f);
-        SpriteCrosshairSettings.color = new Vector4(SliderRed.value, SliderBlue.value, SliderGreen.value, 1f);
 
         //var Size = new Vector3(SliderSize.value, SliderSize.value, SliderSize.value);
         //SpriteCrosshair.rectTransform.localScale = Size;
