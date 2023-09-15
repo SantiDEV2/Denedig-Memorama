@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -15,7 +15,6 @@ public class TimeCount : MonoBehaviour
     public GameObject canvasScoreBoard;
 
     public  float puntos = 9999f;
-    public Settings1 settings1;
 
     void Start()
     {
@@ -41,7 +40,6 @@ public class TimeCount : MonoBehaviour
         
         if(Comparisons.Cuentalugar >= 13)
         {
-            settings1.PlaySfx("SUCESO"); //Sonido de Victoria
             time += 0;
             DisplayTime(time);
             print(time);

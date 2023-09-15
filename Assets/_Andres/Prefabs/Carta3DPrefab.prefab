@@ -259,11 +259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c86d92c08547ecd489e6cb7d8b9d0eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CartaImagen: {fileID: 1810940178719514732}
-  selectcart: 0
-  cartaselec: {fileID: 0}
+  cartaImagen: {fileID: 1810940178719514732}
   animopen: {fileID: 3594568229788464136}
-  animclose: {fileID: 0}
 --- !u!95 &3594568229788464136
 Animator:
   serializedVersion: 5

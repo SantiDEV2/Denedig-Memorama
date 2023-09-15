@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Cards : MonoBehaviour
 {
-    public int ID { get; set; }
-    public SpriteRenderer CartaImagen;
+    public int id { get; set; }
+    public SpriteRenderer cartaImagen;
 
-    public int selectcart;
-    public GameObject cartaselec;
+    private int _selectcart;
+    private GameObject _cartaselec;
     public Animator animopen;
 
     public void OnMouseDown()
@@ -16,26 +17,26 @@ public class Cards : MonoBehaviour
         animopen.SetTrigger("Open");
         //this.transform.Rotate(0,180,0);
         Comparisons.CartasVolteadas += 1;
-        selectcart = this.ID;
-        cartaselec = this.gameObject;
+        _selectcart = this.id;
+        _cartaselec = this.gameObject;
 
         if (Comparisons.CartasVolteadas == 1)
         {
-            Comparisons.firstID = selectcart;
-            Comparisons.cartavol1 = cartaselec;
+            Comparisons.firstID = _selectcart;
+            Comparisons.cartavol1 = _cartaselec;
             this.GetComponent<BoxCollider>().enabled = false;
         }
 
         if (Comparisons.CartasVolteadas == 2)
         {
-            Comparisons.secondID = selectcart;
-            Comparisons.cartavol2 = cartaselec;
+            Comparisons.secondID = _selectcart;
+            Comparisons.cartavol2 = _cartaselec;
             this.GetComponent<BoxCollider>().enabled = false;
         }     
     }
 
     public void AsignarImagendeCarta(Sprite imagen)
     {
-        CartaImagen.sprite = imagen;
+        cartaImagen.sprite = imagen;
     }
 }

@@ -1,46 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Spawner : MonoBehaviour
 {
-    public Sprite[] ImagenesdeCartas;
+    public Sprite[] imagenesdeCartas;
     public int filas = 8;
     public int columnas = 3;
     public Vector2 espacio = Vector2.zero;
-
-    public GameObject Carta;
-    public Transform SpawnArea;
-
-    private int CartasSpawneadas = 0; 
+    public GameObject carta;
+    private int _cartasSpawneadas = 0;
 
     void Start()
     {
-        int TotalCards = filas * columnas;
+        int totalCards = filas * columnas;
 
-        List<int> CardIDs = MixCards(TotalCards);
+        List<int> CardIDs = MixCards(totalCards);
 
         for (int x = 0; x < filas; x++)
         {
             for (int y = 0; y < columnas; y++)
             {
-                GameObject cartas = Instantiate(Carta);
+                GameObject cartas = Instantiate(carta);
 
                 Cards cartaenturno = cartas.GetComponent<Cards>();
-                cartaenturno.ID = CardIDs[CartasSpawneadas];
-                cartaenturno.AsignarImagendeCarta(ImagenesdeCartas[cartaenturno.ID]);
+                cartaenturno.id = CardIDs[_cartasSpawneadas];
+                cartaenturno.AsignarImagendeCarta(imagenesdeCartas[cartaenturno.id]);
 
                 cartas.transform.position = new Vector2(x * espacio.x - 4.91f, y * espacio.y - 1.55f);
-                CartasSpawneadas++;
+                _cartasSpawneadas++;
             }
         }
     }
 
-    List<int> MixCards(int TotalCards)
+    List<int> MixCards(int totalCards)
     {
         List<int> CardIDs = new List<int>();
 
-        for (int i = 0; i < TotalCards; i++)
+        for (int i = 0; i < totalCards; i++)
         {
             CardIDs.Add(i / 2);
         }
