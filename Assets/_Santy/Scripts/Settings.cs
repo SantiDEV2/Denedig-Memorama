@@ -1,8 +1,8 @@
 using System;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class Settings : MonoBehaviour
@@ -11,26 +11,15 @@ public class Settings : MonoBehaviour
     public static Settings Instance;
     public SoundManager[] musicSounds, sfxSounds;
     public AudioSource musicSource, sfxSource;
+    
+    [Header("Volume")] 
+    [SerializeField] private AudioMixer audioController;
+    [SerializeField] private Slider musicSlider;
 
-    [Header("Sensibility")]
-    public Slider SliderSensibility;
-    public TextMeshProUGUI SensibilityText;
-
-    [Header("Music")]
-    public Toggle MusicToggle;
-    public Toggle SFXToggle;
-
-    [Header("Sliders Color")]
-    public Slider SliderRed;
-    public Slider SliderGreen;
-    public Slider SliderBlue;
-
-    //[Header("Sliders Size")]
-    //public Slider SliderSize;
-
-    [Header("Crosshair")]
-    public Image SpriteCrosshair;
-    public Image SpriteCrosshairSettings;
+    [Header("Brightness")]  
+    public Slider brightneSlider;
+    private float _sliderValue;
+    public Image brightnessPanel;
 
      private void Awake()
     {
@@ -46,53 +35,23 @@ public class Settings : MonoBehaviour
     
     void Start()
     {
-        //SliderSize.minValue = 0.33f;
-        //SliderSize.maxValue = 3f;
-        SliderSensibility.value = PlayerPrefs.GetFloat("sensibilidad",0.5f);
+        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.5f);
+        brightnessPanel.color = new Color(brightnessPanel.color.r, brightnessPanel.color.g, brightnessPanel.color.b,
+            brightneSlider.value);
     }
 
-
-    void Update()
+    public void ChangeBrightness(float value)
     {
-        //Debug.Log(SliderSensibility.value);
-
-        SliderRed.maxValue = 1;
-        SliderBlue.maxValue = 1;
-        SliderGreen.maxValue = 1;
-
-        SpriteCrosshair.color = new Vector4(SliderRed.value, SliderBlue.value, SliderGreen.value, 1f);
-        SpriteCrosshairSettings.color = new Vector4(SliderRed.value, SliderBlue.value, SliderGreen.value, 1f);
-
-        //var Size = new Vector3(SliderSize.value, SliderSize.value, SliderSize.value);
-        //SpriteCrosshair.rectTransform.localScale = Size;
-
+        _sliderValue = value;
+        PlayerPrefs.SetFloat("Brightness",_sliderValue);
+        brightnessPanel.color = new Color(brightnessPanel.color.r, brightnessPanel.color.g, brightnessPanel.color.b,
+            brightneSlider.value);
     }
 
-
-    public void MusicVolume()
+    public void SetMusicVolume()
     {
-        if (MusicToggle.isOn == true)
-        {
-            musicSource.volume = 1;
-        }
-
-        if (MusicToggle.isOn == false)
-        {
-            musicSource.volume = 0;
-        }
-    }
-
-    public void SfxVolume()
-    {
-        if (SFXToggle.isOn == true)
-        {
-            sfxSource.volume = 1;
-        }
-
-        if (SFXToggle.isOn == false)
-        {
-            sfxSource.volume = 0;
-        }
+        float volume = musicSlider.value;
+        audioController.SetFloat("Music", volume);
     }
 
     public void PlayMusic(string name)

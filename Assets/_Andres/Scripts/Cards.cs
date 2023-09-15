@@ -19,6 +19,7 @@ public class Cards : MonoBehaviour
         Comparisons.CartasVolteadas += 1;
         _selectcart = this.id;
         _cartaselec = this.gameObject;
+        
 
         if (Comparisons.CartasVolteadas == 1)
         {
