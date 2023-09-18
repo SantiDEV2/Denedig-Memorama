@@ -113,7 +113,7 @@ public class Comparisons : MonoBehaviour
         StopAllCoroutines();
     }
 
-    void CorrectParPos()
+    void CorrectParPos()//sonidos en los if cuando acierta 
     {
         if (Cuentalugar == 1)
         {

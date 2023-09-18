@@ -17,7 +17,7 @@ public class TimeCount : MonoBehaviour
 
     public  float puntos = 9999f;
 
-    public static void GamePaused()
+    public static void GamePaused()//Sonido pausa 
     {
         _isPaused = !_isPaused;
     }
