@@ -1,10 +1,11 @@
-﻿    using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 public class TimeCount : MonoBehaviour
 {
+    public static bool _isPaused;
     public TMP_Text timetext;
     public TMP_Text FinalTimeText;
     public TMP_Text Errors;
@@ -16,6 +17,15 @@ public class TimeCount : MonoBehaviour
 
     public  float puntos = 9999f;
 
+    public static void GamePaused()//Sonido pausa 
+    {
+        _isPaused = !_isPaused;
+    }
+
+    public static void GameUnPaused()
+    {
+        _isPaused = false;
+    }
     void Start()
     {
         time = 0;
@@ -26,6 +36,7 @@ public class TimeCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(_isPaused) return;
         if(Comparisons.Cuentalugar < 12)
         {
             time += Time.deltaTime;

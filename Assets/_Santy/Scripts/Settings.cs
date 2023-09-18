@@ -15,6 +15,7 @@ public class Settings : MonoBehaviour
     [Header("Volume")] 
     [SerializeField] private AudioMixer audioController;
     [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider SFXSlider;
 
     [Header("Brightness")]  
     public Slider brightneSlider;
@@ -35,9 +36,18 @@ public class Settings : MonoBehaviour
     
     void Start()
     {
-        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.5f);
+        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.0f);
         brightnessPanel.color = new Color(brightnessPanel.color.r, brightnessPanel.color.g, brightnessPanel.color.b,
             brightneSlider.value);
+        if (PlayerPrefs.HasKey("musicVolume"))
+        {
+            LoadVolume();
+        }
+        else
+        {
+            SetMusicVolume();
+            SetSFXVolume();
+        }
     }
 
     public void ChangeBrightness(float value)
@@ -51,7 +61,22 @@ public class Settings : MonoBehaviour
     public void SetMusicVolume()
     {
         float volume = musicSlider.value;
-        audioController.SetFloat("Music", volume);
+        audioController.SetFloat("Music", Mathf.Log10(volume)*20);
+        PlayerPrefs.SetFloat("musicVolume",volume);
+    }
+    public void SetSFXVolume()
+    {
+        float volume = SFXSlider.value;
+        audioController.SetFloat("SFX", Mathf.Log10(volume)*20);
+        PlayerPrefs.SetFloat("SFXVolume",volume);
+    }
+
+    private void LoadVolume()
+    {
+        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
+        SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
+        SetMusicVolume();
+        SetSFXVolume();
     }
 
     public void PlayMusic(string name)

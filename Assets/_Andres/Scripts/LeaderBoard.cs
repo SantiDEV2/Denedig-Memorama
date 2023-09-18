@@ -21,7 +21,7 @@ public class LeaderBoard : MonoBehaviour
 
 
 
-    private void Start()
+    private void Start()    
     {
         Load();
     }
@@ -52,17 +52,17 @@ public class LeaderBoard : MonoBehaviour
         }
     }
 
-    public void Submit()
+    public void Submit()// Sonido boton sube puntuacion 
     {
         Leaderboards.DemoSceneLeaderboard.UploadNewEntry(_playerUsernameInput.text, _playerScore, Callback, ErrorCallback);
     }
 
-    public void DeleteEntry()
+    public void DeleteEntry()// Sonido Resetea boton puntuacion 
     {
         Leaderboards.DemoSceneLeaderboard.DeleteEntry(Callback, ErrorCallback);
     }
 
-    public void ResetPlayer()
+    public void ResetPlayer()//Sonido Resetea Puntuacion 
     {
         LeaderboardCreator.ResetPlayer();
     }
