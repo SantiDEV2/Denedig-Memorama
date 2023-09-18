@@ -122,6 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cartaImagen: {fileID: 3426015120466381590}
+  TextoImagen: {fileID: 2071193786543343516}
   animopen: {fileID: 1978099717098210747}
 --- !u!95 &1978099717098210747
 Animator:

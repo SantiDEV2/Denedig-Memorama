@@ -3522,7 +3522,6 @@ MonoBehaviour:
   canvasPuntuacion: {fileID: 1092817383}
   canvasScoreBoard: {fileID: 533827114}
   puntos: 9999
-  settings1: {fileID: 863892408}
 --- !u!4 &391373800
 Transform:
   m_ObjectHideFlags: 0
@@ -3550,24 +3549,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa9fc3d396b9124490164c0a1df910b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagenesdeCartas:
-  - {fileID: 21300000, guid: 9bb60824e005a4442921ebd7b743d3e9, type: 3}
-  - {fileID: 21300000, guid: 62b2d4a87996cc24baa418967ece2e43, type: 3}
-  - {fileID: 21300000, guid: 257d4af31cec9234fa3f024cd81dd312, type: 3}
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 21300000, guid: 9bb60824e005a4442921ebd7b743d3e9, type: 3}
-  - {fileID: 21300000, guid: 62b2d4a87996cc24baa418967ece2e43, type: 3}
-  - {fileID: 21300000, guid: 257d4af31cec9234fa3f024cd81dd312, type: 3}
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 21300000, guid: 9bb60824e005a4442921ebd7b743d3e9, type: 3}
-  - {fileID: 21300000, guid: 62b2d4a87996cc24baa418967ece2e43, type: 3}
-  - {fileID: 21300000, guid: 257d4af31cec9234fa3f024cd81dd312, type: 3}
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  imagenesdeCartas:
+  - {fileID: 21300000, guid: d6ac408a759a91d40b5c6036695b1f6d, type: 3}
+  - {fileID: 21300000, guid: 630e8f6eea11c14499e21bf1a2418fd1, type: 3}
+  - {fileID: 21300000, guid: 35b4664de75587b4d9e6bf8eeb8b5d1e, type: 3}
+  - {fileID: 21300000, guid: f50538e7b9cf2f4478f5a92e6d07224b, type: 3}
+  - {fileID: 21300000, guid: 56c7bdb171f95ba4f81f821c17679b88, type: 3}
+  - {fileID: 21300000, guid: 4deb29958b48e914595a562c6571c8a8, type: 3}
+  - {fileID: 21300000, guid: 6b96266a7c30830438938555fde717c4, type: 3}
+  - {fileID: 21300000, guid: 3483fd98c8dda5444af41e80279ee8e1, type: 3}
+  - {fileID: 21300000, guid: 0a3a18881c6a93044b759b38ffde033d, type: 3}
+  - {fileID: 21300000, guid: 79700d442b0835e4abf7f2e690d652a2, type: 3}
+  - {fileID: 21300000, guid: 219da86218f708d48babd488f0c1af6c, type: 3}
+  - {fileID: 21300000, guid: 79700d442b0835e4abf7f2e690d652a2, type: 3}
   filas: 8
   columnas: 3
   espacio: {x: 1.4, y: 1.7}
-  Carta: {fileID: 833748772312624305, guid: 93bf31fd070358840be70e4512c821b3, type: 3}
-  SpawnArea: {fileID: 1722213937}
+  carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
 --- !u!114 &391373802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3582,7 +3580,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CheckText: {fileID: 1408095926}
   WrongText: {fileID: 1909349342}
-  settings1: {fileID: 863892408}
   pila1: {fileID: 1909759027}
   pila2: {fileID: 1150105611}
   pila3: {fileID: 1351596291}

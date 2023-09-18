@@ -7,6 +7,7 @@ public class Cards : MonoBehaviour
 {
     public int id { get; set; }
     public SpriteRenderer cartaImagen;
+    public SpriteRenderer TextoImagen;
 
     private int _selectcart;
     private GameObject _cartaselec;
@@ -39,5 +40,10 @@ public class Cards : MonoBehaviour
     public void AsignarImagendeCarta(Sprite imagen)
     {
         cartaImagen.sprite = imagen;
+    }
+
+    public void AsignarTextodeCarta(Sprite Texto)
+    {
+        TextoImagen.sprite = Texto;
     }
 }
