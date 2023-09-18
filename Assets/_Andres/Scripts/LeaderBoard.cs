@@ -21,7 +21,7 @@ public class LeaderBoard : MonoBehaviour
 
 
 
-    private void Start()
+    private void Start()    
     {
         Load();
     }
