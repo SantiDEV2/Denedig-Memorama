@@ -12,7 +12,6 @@ public class TimeCount : MonoBehaviour
     public TMP_Text textScore;
 
     public float time;
-    public GameObject canvasPuntuacion;
     public GameObject canvasScoreBoard;
 
     public  float puntos = 9999f;
@@ -29,8 +28,6 @@ public class TimeCount : MonoBehaviour
     void Start()
     {
         time = 0;
-        canvasPuntuacion.SetActive(false);
-        canvasScoreBoard.SetActive(false);
     }
 
     // Update is called once per frame
@@ -56,7 +53,6 @@ public class TimeCount : MonoBehaviour
             print(time);
             FinalTimeText.text = time.ToString() + " segundos";
             Errors.text = Comparisons.errores.ToString(); 
-            canvasPuntuacion.SetActive(true);
             textScore.text = "" + puntos.ToString(); // Actualizar el texto de la puntuación
             canvasScoreBoard.SetActive(true);
         }
