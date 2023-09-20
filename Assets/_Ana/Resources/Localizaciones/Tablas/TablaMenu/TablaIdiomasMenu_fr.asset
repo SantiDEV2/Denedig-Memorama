@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TablaIdiomasMenu_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: edfa37003fea62149bcbda705b53b9b4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21874503680
+    m_Localized: Jouer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 680195682304
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1237840982016
+    m_Localized: DIDACTICIEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1557409198080
+    m_Localized: "PONCTUATION\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1957210255360
+    m_Localized: "Ins\xE9rez votre nom"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2425764343808
+    m_Localized: "Rappel: le score ne sera pas conserv\xE9 si vous n'ins\xE9rez pas
+      de nom"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

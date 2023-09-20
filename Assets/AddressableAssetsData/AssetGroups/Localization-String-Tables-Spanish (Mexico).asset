@@ -10,16 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Spanish (es)
+  m_Name: Localization-String-Tables-Spanish (Mexico)
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Spanish (es)
+  m_GroupName: Localization-String-Tables-Spanish (Mexico)
   m_Data:
     m_SerializedData: []
-  m_GUID: 6e50131ca03815e49ad07e02d1691832
-  m_SerializeEntries: []
+  m_GUID: a88cc4f80a17a084e8e6bc09af196265
+  m_SerializeEntries:
+  - m_GUID: 91a902f9616086a42802a460ba39e7aa
+    m_Address: TablaIdiomasMenu_es-MX
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-MX
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: bc51814ebf3d36a418a506976433dfc2, type: 2}
-    - {fileID: 11400000, guid: d0ccdfa1e37050244804bd5a885c2a28, type: 2}
+    - {fileID: 11400000, guid: f49b9d7d1210a6540bdef3e038c5ea7c, type: 2}
+    - {fileID: 11400000, guid: 986a9df533109c541ab426ae97f5fe4d, type: 2}
