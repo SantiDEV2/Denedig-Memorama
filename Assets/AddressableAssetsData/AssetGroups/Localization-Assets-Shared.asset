@@ -17,13 +17,9 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 9b5ba954f9a44ae45bec51727bdab509
   m_SerializeEntries:
-  - m_GUID: 4e3cfad484c8b764cbbab5d8473f3bb2
-    m_Address: Assets/_Ana/Localizaciones/Tabla de idiomas Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2de2f10707c98da4fa02db6cbf594d78
-    m_Address: Assets/_Ana/Localizaciones/Tabla Idiomas Menu Shared Data.asset
+  - m_GUID: edfa37003fea62149bcbda705b53b9b4
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaMenu/TablaIdiomasMenu
+      Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
