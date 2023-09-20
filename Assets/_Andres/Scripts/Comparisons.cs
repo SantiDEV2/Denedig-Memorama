@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -122,7 +122,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila1.transform.position;
             cartavol1.transform.localScale = size;
             
-            cartavol2.transform.position = pila1.transform.position + new Vector3(.12f,0,0);
+            cartavol2.transform.position = pila1.transform.position + new Vector3(.12f,0,.1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -131,7 +131,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila2.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila2.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila2.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -140,7 +140,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila3.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila3.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila3.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -149,7 +149,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila4.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila4.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila4.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -158,7 +158,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila5.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila5.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila5.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -167,7 +167,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila6.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila6.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila6.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -176,7 +176,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila7.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila7.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila7.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -185,7 +185,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila8.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila8.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila8.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -194,7 +194,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila9.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila9.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila9.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -203,7 +203,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila10.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila10.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila10.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -212,7 +212,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila11.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila11.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila11.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
 
@@ -221,7 +221,7 @@ public class Comparisons : MonoBehaviour
             cartavol1.transform.position = pila12.transform.position;
             cartavol1.transform.localScale = size;
 
-            cartavol2.transform.position = pila12.transform.position + new Vector3(.12f, 0, 0);
+            cartavol2.transform.position = pila12.transform.position + new Vector3(.12f, 0, .1f);
             cartavol2.transform.localScale = size;
         }
     }
