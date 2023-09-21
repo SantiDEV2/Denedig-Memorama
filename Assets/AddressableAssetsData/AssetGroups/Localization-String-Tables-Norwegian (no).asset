@@ -17,11 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 57a54c64dc10c4046b64d11185678f30
   m_SerializeEntries:
-  - m_GUID: 6afb90f68ab09fa44bcf752660b91907
-    m_Address: TablaIdiomasMenu_no
+  - m_GUID: 4c7571cb3e9073c43895b7f03ec27fdd
+    m_Address: TablaIdiomaAjustes_no
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-no
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a9953d80693e464ebababf0bc178967
     m_Address: TablaIdiomasMenuPrincipal_no

@@ -31,6 +31,13 @@ MonoBehaviour:
     - Locale-it
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 783c614269117b949ace046f2e3de9c5
+    m_Address: TablaIdiomaAjustes_it
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-it
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:
