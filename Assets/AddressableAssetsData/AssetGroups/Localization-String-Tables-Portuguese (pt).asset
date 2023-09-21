@@ -17,15 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 7773f71f27db07943b7d1242ff32b48f
   m_SerializeEntries:
-  - m_GUID: 49d5ffd2a5132114d915eaca8c46f62b
-    m_Address: TablaIdiomasMenuPrincipal_pt
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-pt
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ae03bf4ec5f9da746aa31f463503e906
-    m_Address: TablaIdiomaCategorias_pt
+  - m_GUID: 5677f8a981af0ea4e90468efb0964b96
+    m_Address: TablaIdiomasMenu_pt
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-pt

@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 99a461614d757724194660bc3ed5d381
-    m_Address: Maya Yucateco (may)
+  - m_GUID: 3246cca832d095d408d5287492ad477d
+    m_Address: Norwegian (no)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
