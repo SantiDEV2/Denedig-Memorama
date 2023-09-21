@@ -10,37 +10,40 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: TablaIdiomasMenu_pt
+  m_Name: TablaIdiomaCategorias_fr
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: pt
-  m_SharedData: {fileID: 11400000, guid: edfa37003fea62149bcbda705b53b9b4, type: 2}
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 477bfa4813d9c904489212ba9d53aa4a, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 21874503680
-    m_Localized: Jogar
+  - m_Id: 163788779520
+    m_Localized: "Cat\xE9gories\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 680195682304
-    m_Localized: "Op\xE7\xF5es"
+  - m_Id: 178678558720
+    m_Localized: "REPAS\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1237840982016
-    m_Localized: TUTORIAL
+  - m_Id: 183548145664
+    m_Localized: "TENUE\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1557409198080
-    m_Localized: "PONTUA\xC7\xC3O"
+  - m_Id: 186635153408
+    m_Localized: "ENDROITS\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1957210255360
-    m_Localized: Insira seu nome
+  - m_Id: 189688606720
+    m_Localized: "DIVERSIT\xC9 CULTURELLE\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 2425764343808
-    m_Localized: "Lembrete: a pontua\xE7\xE3o n\xE3o ser\xE1 mantida se voc\xEA n\xE3o
-      inserir um nome"
+  - m_Id: 192507179008
+    m_Localized: "BONBONS\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341757292544
+    m_Localized: Artisanat
     m_Metadata:
       m_Items: []
   references:

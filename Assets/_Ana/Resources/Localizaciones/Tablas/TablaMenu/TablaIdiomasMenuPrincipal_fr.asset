@@ -10,37 +10,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: TablaIdiomasMenu_it
+  m_Name: TablaIdiomasMenuPrincipal_fr
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: it
-  m_SharedData: {fileID: 11400000, guid: edfa37003fea62149bcbda705b53b9b4, type: 2}
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 9b2f308dc823f444ca00ae90500bc0e2, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 21874503680
-    m_Localized: Giocare
+  - m_Id: 56372654080
+    m_Localized: "JOUER\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 680195682304
-    m_Localized: Opzioni
+  - m_Id: 338867417088
+    m_Localized: "Ins\xE9rez votre nom\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1237840982016
-    m_Localized: Tutorial
+  - m_Id: 61305155584
+    m_Localized: "Options\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1557409198080
-    m_Localized: PUNTEGGIATURA
+  - m_Id: 65835003904
+    m_Localized: "DIDACTICIEL\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 1957210255360
-    m_Localized: Inserisci il tuo nome
+  - m_Id: 69630849024
+    m_Localized: "PONCTUATION\r"
     m_Metadata:
       m_Items: []
-  - m_Id: 2425764343808
-    m_Localized: "Promemoria: il punteggio non verr\xE0 mantenuto se non si inserisce
-      un nome"
+  - m_Id: 367556456448
+    m_Localized: "Rappel: le score ne sera pas conserv\xE9 si vous n'ins\xE9rez pas
+      de nom"
     m_Metadata:
       m_Items: []
   references:

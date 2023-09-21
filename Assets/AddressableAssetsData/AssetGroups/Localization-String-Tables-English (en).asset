@@ -16,7 +16,21 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 00ab32d957aff1f4ba9be9e117fa0159
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 2d32c59fa2849424bb4e599718ae171a
+    m_Address: TablaIdiomasMenuPrincipal_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b1b8f012dab8ec4493141719bbc839c
+    m_Address: TablaIdiomaCategorias_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:
