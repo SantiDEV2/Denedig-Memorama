@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: TablaIdiomasMenuPrincipal
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 9b2f308dc823f444ca00ae90500bc0e2, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: c30b560ef3b64854c82a15bdf0fc28bc, type: 2}
+  - {fileID: 11400000, guid: da4b39efac4964c45b5f1cf7fbdea634, type: 2}
+  - {fileID: 11400000, guid: 49d5ffd2a5132114d915eaca8c46f62b, type: 2}
+  - {fileID: 11400000, guid: 416ec1a371bbed44a858131cdd503807, type: 2}
+  - {fileID: 11400000, guid: 2d32c59fa2849424bb4e599718ae171a, type: 2}
+  - {fileID: 11400000, guid: 9a9953d80693e464ebababf0bc178967, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2207999463e42a248bbce32323bbaa22
-    m_Address: Japanese (ja)
+  - m_GUID: 3246cca832d095d408d5287492ad477d
+    m_Address: Norwegian (no)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale

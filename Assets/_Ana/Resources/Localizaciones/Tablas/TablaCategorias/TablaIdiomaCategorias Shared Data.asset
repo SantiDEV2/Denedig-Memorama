@@ -10,43 +10,47 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: TablaIdiomasMenu Shared Data
+  m_Name: TablaIdiomaCategorias Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: TablaIdiomasMenu
-  m_TableCollectionNameGuidString: edfa37003fea62149bcbda705b53b9b4
+  m_TableCollectionName: TablaIdiomaCategorias
+  m_TableCollectionNameGuidString: 477bfa4813d9c904489212ba9d53aa4a
   m_Entries:
-  - m_Id: 21874503680
-    m_Key: Jugar
+  - m_Id: 163788779520
+    m_Key: Categorias
     m_Metadata:
       m_Items: []
-  - m_Id: 680195682304
-    m_Key: Opciones
+  - m_Id: 178678558720
+    m_Key: Comida
     m_Metadata:
       m_Items: []
-  - m_Id: 1237840982016
-    m_Key: Tutorial
+  - m_Id: 183548145664
+    m_Key: Vestimenta
     m_Metadata:
       m_Items: []
-  - m_Id: 1557409198080
-    m_Key: Puntuacion
+  - m_Id: 186635153408
+    m_Key: Lugares
     m_Metadata:
       m_Items: []
-  - m_Id: 1957210255360
-    m_Key: Inserta tu nombre
+  - m_Id: 189688606720
+    m_Key: Diversidad
     m_Metadata:
       m_Items: []
-  - m_Id: 2425764343808
-    m_Key: Recordatorio
+  - m_Id: 192507179008
+    m_Key: Dulces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341757292544
+    m_Key: Artesanias
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 8916652741657624576
+    rid: 8916652762865598479
   references:
     version: 2
     RefIds:
-    - rid: 8916652741657624576
+    - rid: 8916652762865598479
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1695227137591
+        m_CustomEpoch: 1695309615263
