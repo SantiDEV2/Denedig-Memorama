@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Pos
   - Cartas
-  - Drop
   layers:
   - Default
   - TransparentFX

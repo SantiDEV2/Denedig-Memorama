@@ -17,10 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: c238872a96cd8844fa213a62e7e6e808
   m_SerializeEntries:
-<<<<<<< HEAD
-  - m_GUID: d19f8385f1825e34d815bd39fb4feb76
-    m_Address: TablaIdiomasMenu_it
-=======
   - m_GUID: da4b39efac4964c45b5f1cf7fbdea634
     m_Address: TablaIdiomasMenuPrincipal_it
     m_ReadOnly: 1
@@ -30,7 +26,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7d8ea6dc780b94b4e9d469cbb1ac954b
     m_Address: TablaIdiomaCategorias_it
->>>>>>> main
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-it
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 783c614269117b949ace046f2e3de9c5
+    m_Address: TablaIdiomaAjustes_it
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-it

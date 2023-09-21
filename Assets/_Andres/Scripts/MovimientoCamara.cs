@@ -1,30 +1,33 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 
 public class MovimientoCamara : MonoBehaviour
 {
-    public float duration = 1.5f;
-    public float magnityde = 1.5f;
+    public float duration;
+    public float magnitude;
+    private Vector3 _originalPosition;
+    private bool _able;
+
+    private void Start()
+    {
+        _originalPosition = transform.position;
+    }
+
+    private void Update()
+    {
+        if (_able == true)
+        {
+            transform.localPosition = _originalPosition;
+        }   
+    }
 
     public IEnumerator Shake()
     {
-        Vector3 originalPosition = transform.localPosition;
-        float elapsed = 0f;
-        while (elapsed < duration)
-        {
-            float x = Random.Range(-1f, 1f) * magnityde;
-            float y = Random.Range(-1f, 1f) * magnityde;
-
-            transform.localPosition = new Vector3(x, y, originalPosition.z);
-            elapsed += Time.deltaTime;
-            yield return null;
-
-
-        }
-        transform.localPosition = originalPosition; 
- 
+        _able = false;
+        float x = Random.Range(-1f, 1f) * magnitude;
+        float y = Random.Range(-1f, 1f) * magnitude;
+        transform.localPosition = new Vector3(x, y, _originalPosition.z);
+        yield return new WaitForSeconds(duration);
+        _able = true;
     }
-
 }

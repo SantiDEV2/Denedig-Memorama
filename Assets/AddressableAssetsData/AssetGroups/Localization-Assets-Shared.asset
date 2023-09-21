@@ -17,8 +17,8 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 9b5ba954f9a44ae45bec51727bdab509
   m_SerializeEntries:
-  - m_GUID: edfa37003fea62149bcbda705b53b9b4
-    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaMenu/TablaIdiomasMenu
+  - m_GUID: 6a96a452b6eafea4b86b546512baf74b
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaAjustes/TablaIdiomaAjustes
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
