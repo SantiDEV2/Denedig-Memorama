@@ -10,41 +10,36 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: TablaIdiomasMenuPrincipal_no
+  m_Name: TablaIdiomasMenu_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: no
-  m_SharedData: {fileID: 11400000, guid: 9b2f308dc823f444ca00ae90500bc0e2, type: 2}
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: edfa37003fea62149bcbda705b53b9b4, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 56372654080
-    m_Localized: "SPILLE\r"
+  - m_Id: 21874503680
+    m_Localized: PLAY
     m_Metadata:
       m_Items: []
-  - m_Id: 61305155584
-    m_Localized: "Alternativer\r"
+  - m_Id: 680195682304
+    m_Localized: Options
     m_Metadata:
       m_Items: []
-  - m_Id: 65835003904
-    m_Localized: "OPPL\xC6RINGEN\r"
+  - m_Id: 1237840982016
+    m_Localized: TUTORIAL
     m_Metadata:
       m_Items: []
-  - m_Id: 69630849024
-    m_Localized: 'TEGNSETTING
-
-'
+  - m_Id: 1557409198080
+    m_Localized: SCORE
     m_Metadata:
       m_Items: []
-  - m_Id: 338867417088
-    m_Localized: 'Sett inn navnet ditt
-
-'
+  - m_Id: 1957210255360
+    m_Localized: Insert your name
     m_Metadata:
       m_Items: []
-  - m_Id: 367556456448
-    m_Localized: "P\xE5minnelse: Poengsummen vil ikke bli holdt hvis du ikke setter
-      inn et navn"
+  - m_Id: 2425764343808
+    m_Localized: 'Reminder: The score will not be kept if you do not insert a name'
     m_Metadata:
       m_Items: []
   references:

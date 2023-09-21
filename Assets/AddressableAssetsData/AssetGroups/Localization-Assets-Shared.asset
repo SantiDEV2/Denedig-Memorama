@@ -23,18 +23,6 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9b2f308dc823f444ca00ae90500bc0e2
-    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaMenu/TablaIdiomasMenuPrincipal
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 477bfa4813d9c904489212ba9d53aa4a
-    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaCategorias/TablaIdiomaCategorias
-      Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:
