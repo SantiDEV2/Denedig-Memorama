@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ActivePanel : MonoBehaviour
 
 {
-    public GameObject panelAcierto; // Aquí va el panel acierto 
-    public GameObject panelError;   // Aquí va el panel de error
+    public GameObject panelAcierto; // Aquï¿½ va el panel acierto 
+    /*public GameObject panelError;   // Aquï¿½ va el panel de error*/
     public MovimientoCamara moviminetoCamara;
 
     private bool panelAciertoActivo = false;
@@ -27,7 +25,7 @@ public class ActivePanel : MonoBehaviour
         if (Comparisons.Errortimerend == true)
         {
             
-            ActivarPanel(panelError);
+            /*ActivarPanel(panelError);*/
             StartCoroutine(moviminetoCamara.Shake());
         }
     }
@@ -43,7 +41,7 @@ public class ActivePanel : MonoBehaviour
     {
         
         panelAcierto.SetActive(false);
-        panelError.SetActive(false);
+        /*panelError.SetActive(false);*/
 
         panelAciertoActivo = false;
         panelErrorActivo = false;
