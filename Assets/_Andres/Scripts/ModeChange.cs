@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using UnityEngine.EventSystems;
 
 public class ModeChange : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class ModeChange : MonoBehaviour
     #endregion
 
     void Awake()
-    {
+    {        
         if (normalColor == true)
         {
             ColorBlindFilter.mode = ColorBlindMode.Normal;
