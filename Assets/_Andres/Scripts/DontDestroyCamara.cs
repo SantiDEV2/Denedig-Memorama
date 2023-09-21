@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DontDestroyDrop : MonoBehaviour
+public class DontDestroyCamara : MonoBehaviour
 {
     void Awake()
     {
