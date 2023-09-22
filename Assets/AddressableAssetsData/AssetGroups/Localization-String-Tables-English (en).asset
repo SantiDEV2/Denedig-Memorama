@@ -38,6 +38,34 @@ MonoBehaviour:
     - Locale-en
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a9a0508ae6521248ba93c19811b31fb
+    m_Address: MenuPrincipal_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 830e70045d07e824bb7a0f5c5f690247
+    m_Address: TablaCategorias_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccbf809c074375e49b893ed1d320038d
+    m_Address: TablaAjustes_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de107095c4e261e43953f9ecadae9d59
+    m_Address: TablaScore_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:

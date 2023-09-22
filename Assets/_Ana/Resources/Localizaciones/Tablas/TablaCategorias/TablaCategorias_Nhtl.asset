@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TablaCategorias_Nhtl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: Nhtl
+  m_SharedData: {fileID: 11400000, guid: db14bba9c534865488ed8ddfe4c3a889, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 251508453376
+    m_Localized: 'YAKTLETLAJTOANI
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 254595461120
+    m_Localized: 'TLAZOMAME
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258756210688
+    m_Localized: 'AMOCHIHUALI
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261738360832
+    m_Localized: 'Cuitlaxtli
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268457635840
+    m_Localized: 'NOTLAHCAYOTLALTOTLOTLALIZTLAMATI
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 654560096256
+    m_Localized: 'APAZTLI
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 847162535936
+    m_Localized: TLALMANALILIZTLI
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

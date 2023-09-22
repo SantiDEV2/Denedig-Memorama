@@ -35,6 +35,30 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aebacbfa5a71efc49972516a365a10d2
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaMenu/MenuPrincipal
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db14bba9c534865488ed8ddfe4c3a889
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaCategorias/TablaCategorias
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2db2678252bdb6841957f7804299ed1e
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaAjustes/TablaAjustes
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 577aa1459ac9e6249977dff17f768408
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaScore/TablaScore
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:
