@@ -45,6 +45,27 @@ MonoBehaviour:
     - Locale-may
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d70e0248230507b4f87ff7005643ea7b
+    m_Address: TablaIidomasScoreFinal_may
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-may
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6994523162c421948a9b3ef4233da880
+    m_Address: TablaGeneral_may
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-may
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e80feb0ebc7cc3e49a82a7903b8b7baa
+    m_Address: TablaGame_may
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-may
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:

@@ -16,28 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 54c046723da06ef4ea83cde623147896
-  m_SerializeEntries:
-  - m_GUID: c30b560ef3b64854c82a15bdf0fc28bc
-    m_Address: TablaIdiomasMenuPrincipal_fr
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ab4083b8e98ec82428ec58e6c5b4bd20
-    m_Address: TablaIdiomaCategorias_fr
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2b55f20c13dba864784619608f6bbcce
-    m_Address: TablaIdiomaAjustes_fr
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}
   m_SchemaSet:
