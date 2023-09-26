@@ -5,10 +5,26 @@ using TMPro;
 
 public class InputText : MonoBehaviour
 {
-    public static string pass;
+    public static InputText inputText;
+    public TMP_InputField inputField;
 
-    public void readinputPass(string p)
+    public string Player;
+
+    void Awake()
     {
-        pass = p;
+        if(inputText == null)
+        {
+            inputText = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void setname()
+    {
+        Player = inputField.text;
     }
 }
