@@ -15,15 +15,20 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (Mexico) (es-MX)
   m_Data:
     m_SerializedData: []
-  m_GUID: 2bdab22776ca22d41bf5489f4d58d24e
+  m_GUID: fb4d3b13208a739408e0b741289d6185
   m_SerializeEntries:
+<<<<<<< Updated upstream
   - m_GUID: 7bd224f7030bcd543ab2ae3432449eab
     m_Address: MenuPrincipal_es-MX
+=======
+  - m_GUID: 8ee5ad101d5a00b4eb34967a920b6a59
+    m_Address: TablaIdiomaCategorias_es-MX
+>>>>>>> Stashed changes
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
+<<<<<<< Updated upstream
   - m_GUID: d669788fe24992341a686a0a94f37ac3
     m_Address: TablaCategorias_es-MX
     m_ReadOnly: 1
@@ -61,10 +66,13 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0706585362540c04fac685e34d9a1366
     m_Address: TablaGame_es-MX
+=======
+  - m_GUID: 416ec1a371bbed44a858131cdd503807
+    m_Address: TablaIdiomasMenuPrincipal_es-MX
+>>>>>>> Stashed changes
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}

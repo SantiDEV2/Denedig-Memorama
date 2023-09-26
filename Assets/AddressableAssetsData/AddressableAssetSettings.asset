@@ -7,7 +7,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
@@ -15,7 +15,11 @@ MonoBehaviour:
   m_DefaultGroup: 8ba3854546a6c6142bfea0a104d02b1a
   m_currentHash:
     serializedVersion: 2
+<<<<<<< Updated upstream
     Hash: 13596dd3e441cd8cec206355e1a55f6e
+=======
+    Hash: f0a120e7dd7c739dce4f9baeed5b11e0
+>>>>>>> Stashed changes
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -48,12 +52,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7536cb1cdeeec7c4eb3e31ad3f722c54, type: 2}
   - {fileID: 11400000, guid: 58a300900dce670499c4aa4cece5b4ee, type: 2}
   - {fileID: 11400000, guid: a970594081c347e4abe2bf1e38375fb7, type: 2}
-  - {fileID: 11400000, guid: 9278f0c7e1f7fd546875e8ca1ee458e6, type: 2}
-  - {fileID: 11400000, guid: 47ca1ee6d1a8c10478984692e37a2e1a, type: 2}
-  - {fileID: 11400000, guid: cf432e2b40a521a4e9ff85b899ab12f7, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: f2a1205f426a38c44bf7c7323766ac60, type: 2}
-  - {fileID: 11400000, guid: ebafb56f5a4ca8449a86162ee9a6b9e7, type: 2}
-  - {fileID: 11400000, guid: 0df9e4c831cd8c64e805c86bd644bb7b, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: a5a798c209d6a1345905119adfd37662, type: 2}
   - {fileID: 11400000, guid: 20e8cf0707392d746be32d0775b6955b, type: 2}
   - {fileID: 11400000, guid: 725ca03bb3e82df4e9e47be3ad5cb97c, type: 2}
@@ -62,9 +66,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b8e837c8890346741ad895c7fe45d1de, type: 2}
   - {fileID: 11400000, guid: f59013762f8ee5640b45b02d798af0cd, type: 2}
   - {fileID: 11400000, guid: 7710cb71d65940a4ab87d99408393a66, type: 2}
+<<<<<<< Updated upstream
   - {fileID: 11400000, guid: 799de020fc29d0c42b9fca2344a9c83c, type: 2}
   - {fileID: 11400000, guid: b316739cc2b1adf42a41f4da91b475e6, type: 2}
   - {fileID: 11400000, guid: 22ed03e83cb63f04d93d84cfbb6e05b2, type: 2}
+=======
+  - {fileID: 11400000, guid: ebafb56f5a4ca8449a86162ee9a6b9e7, type: 2}
+  - {fileID: 11400000, guid: 0df9e4c831cd8c64e805c86bd644bb7b, type: 2}
+  - {fileID: 11400000, guid: 47ca1ee6d1a8c10478984692e37a2e1a, type: 2}
+  - {fileID: 11400000, guid: cf432e2b40a521a4e9ff85b899ab12f7, type: 2}
+  - {fileID: 11400000, guid: 9278f0c7e1f7fd546875e8ca1ee458e6, type: 2}
+>>>>>>> Stashed changes
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
