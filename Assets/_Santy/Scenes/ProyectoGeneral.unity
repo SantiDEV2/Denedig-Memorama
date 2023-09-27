@@ -2130,7 +2130,7 @@ MonoBehaviour:
   columnas: 3
   espacio: {x: 1.5, y: 2.25}
   carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
-  Xpos: 4.91
+  Xpos: 5.25
   Ypos: 2
 --- !u!114 &391373802
 MonoBehaviour:
@@ -2871,7 +2871,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 16, y: -74}
+  m_AnchoredPosition: {x: -13, y: -74}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &510330321

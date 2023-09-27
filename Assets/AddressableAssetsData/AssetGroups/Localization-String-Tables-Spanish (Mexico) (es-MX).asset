@@ -15,61 +15,46 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Spanish (Mexico) (es-MX)
   m_Data:
     m_SerializedData: []
-  m_GUID: fb4d3b13208a739408e0b741289d6185
+  m_GUID: 6b0970c0fa5064c4984faa1acc6579c6
   m_SerializeEntries:
-<<<<<<< Updated upstream
-  - m_GUID: 7bd224f7030bcd543ab2ae3432449eab
-    m_Address: MenuPrincipal_es-MX
-=======
-  - m_GUID: 8ee5ad101d5a00b4eb34967a920b6a59
-    m_Address: TablaIdiomaCategorias_es-MX
->>>>>>> Stashed changes
+  - m_GUID: 9e62330c549634a41af848aab5cc69e4
+    m_Address: TablaGeneral_es-MX
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
-    FlaggedDuringContentUpdateRestriction: 0
-<<<<<<< Updated upstream
-  - m_GUID: d669788fe24992341a686a0a94f37ac3
-    m_Address: TablaCategorias_es-MX
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es-MX
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3d056f7990e348f4ab9a97e75b74aaf9
-    m_Address: TablaAjustes_es-MX
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es-MX
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 369be2d04774b6742817bdaf5a67aa4d
-    m_Address: TablaScore_es-MX
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es-MX
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6b1155dd629fdc479bd53a95c869231
     m_Address: TablaIidomasScoreFinal_es-MX
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
-    - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9e62330c549634a41af848aab5cc69e4
-    m_Address: TablaGeneral_es-MX
+  - m_GUID: d669788fe24992341a686a0a94f37ac3
+    m_Address: TablaCategorias_es-MX
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
-    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 369be2d04774b6742817bdaf5a67aa4d
+    m_Address: TablaScore_es-MX
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-MX
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0706585362540c04fac685e34d9a1366
     m_Address: TablaGame_es-MX
-=======
-  - m_GUID: 416ec1a371bbed44a858131cdd503807
-    m_Address: TablaIdiomasMenuPrincipal_es-MX
->>>>>>> Stashed changes
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-MX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bd224f7030bcd543ab2ae3432449eab
+    m_Address: MenuPrincipal_es-MX
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-MX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d056f7990e348f4ab9a97e75b74aaf9
+    m_Address: TablaAjustes_es-MX
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
