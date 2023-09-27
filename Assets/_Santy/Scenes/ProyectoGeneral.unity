@@ -4497,7 +4497,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1955043957}
         m_TargetAssemblyTypeName: LeaderBoard, Assembly-CSharp
-        m_MethodName: GetPersonalEntry
+        m_MethodName: AddPlayerScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
