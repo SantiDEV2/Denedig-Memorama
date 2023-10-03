@@ -1,17 +1,17 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.Serialization;
 
 public class Cutscene : MonoBehaviour
 {
     public PlayableDirector director;
     public AudioSource source;
     
-    private void Awake()
+    public void Awake()
     {
-        director.Play();
-        source.Play();
+        /*director.Play();
+        source.Play();*/
+        Settings.Instance.PlayMusic("MainMenu");
     }
 
     private void Start()
