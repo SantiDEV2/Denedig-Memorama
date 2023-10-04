@@ -51,9 +51,9 @@ public class TimeCount : MonoBehaviour
             time += 0;
             DisplayTime(time);
             print(time);
-            FinalTimeText.text = time.ToString() + " segundos";
+            FinalTimeText.text = time.ToString("0") + " segundos";
             Errors.text = Comparisons.errores.ToString(); 
-            textScore.text = "" + puntos.ToString(); // Actualizar el texto de la puntuación
+            textScore.text = "" + puntos.ToString("0"); // Actualizar el texto de la puntuación
             canvasScoreBoard.SetActive(true);
         }
     }
