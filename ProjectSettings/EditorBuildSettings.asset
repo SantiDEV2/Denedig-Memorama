@@ -6,17 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Santy/Scenes/Menu.unity
-    guid: 38a28e3e8a5a1e849a19f50d70ff5d7b
+    path: Assets/_Santy/Scenes/MenuMemorama.unity
+    guid: 196e3d93f80b88a47993f03054b9d365
   - enabled: 1
     path: Assets/_Santy/Scenes/ProyectoGeneral.unity
-    guid: b8895318dd9003c4cabb3a83190a3e76
-  - enabled: 1
-    path: Assets/_Andres/Scenes/Menu 1.unity
-    guid: f7cb4ed16a938904084b96f2f070fb45
-  - enabled: 1
-    path: Assets/_Andres/Scenes/Ajustes 1.unity
-    guid: 2eaa9a47cda25eb4ba7162a2933136a3
+    guid: 2411a07cc3b69a943beadb9505cc4497
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 145b431bfb93c394d8fe8ac7c0b61fa9, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: ad58d420f7fcafe4fb48870c82f2dcdf, type: 2}
