@@ -27,6 +27,7 @@ public class TimeCount : MonoBehaviour
     }
     void Start()
     {
+        _isPaused = false;
         time = 0;
     }
 
