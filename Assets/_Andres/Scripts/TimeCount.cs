@@ -35,7 +35,7 @@ public class TimeCount : MonoBehaviour
     void Update()
     {
         if(_isPaused) return;
-        if(Comparisons.Cuentalugar < 12)
+        if(Comparisons.Cuentalugar < 20)
         {
             time += Time.deltaTime;
             DisplayTime(time);
@@ -47,7 +47,7 @@ public class TimeCount : MonoBehaviour
             }
         }
         
-        if(Comparisons.Cuentalugar >= 13)
+        if(Comparisons.Cuentalugar >= 21)
         {
             time += 0;
             DisplayTime(time);

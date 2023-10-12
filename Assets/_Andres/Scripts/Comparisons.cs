@@ -20,7 +20,7 @@ public class Comparisons : MonoBehaviour
     public static GameObject cartavol1;
     public static GameObject cartavol2;
 
-    public static int Cuentalugar = 12;
+    public static int Cuentalugar = 20;
 
     public Vector3 size = new Vector3(0,0,0);
 
@@ -58,7 +58,7 @@ public class Comparisons : MonoBehaviour
             if (firstID == secondID)
             {
                 aciertos = aciertos + 1;
-                CheckText.text = aciertos.ToString() + " / 12";
+                CheckText.text = aciertos.ToString() + " / 20";
                 CartasVolteadas = 0;
                 Checktimerend = true;
 
