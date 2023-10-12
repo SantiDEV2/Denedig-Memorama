@@ -29,17 +29,12 @@ public class LeaderBoard : MonoBehaviour
 
     public void AddPlayerScore()
     {
-
         _playerScore = (int)timeCount.puntos;
-
-
         _playerScore1 = timeCount.puntos;
         _playerScoreText.text = "Your score: " + _playerScore1;
       
     }
-
     public void Load() => Leaderboards.DemoSceneLeaderboard.GetEntries(OnLeaderboardLoaded);
-
     private void OnLeaderboardLoaded(Entry[] entries)
     {
         foreach (var entryField in _entryFields)
