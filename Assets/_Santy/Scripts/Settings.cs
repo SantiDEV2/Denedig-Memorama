@@ -19,7 +19,7 @@ public class Settings : MonoBehaviour
 
     [Header("Brightness")]  
     public Slider brightneSlider;
-    private float _sliderValue;
+    private float _sliderValue = .99f;
     public Image brightnessPanel;
 
      private void Awake()
@@ -36,9 +36,9 @@ public class Settings : MonoBehaviour
     
     void Start()
     {
-        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.0f);
+        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.99f);
         brightnessPanel.color = new Color(brightnessPanel.color.r, brightnessPanel.color.g, brightnessPanel.color.b,
-            brightneSlider.value);
+            .99f - brightneSlider.value);
         if (PlayerPrefs.HasKey("musicVolume"))
         {
             LoadVolume();
@@ -55,7 +55,7 @@ public class Settings : MonoBehaviour
         _sliderValue = value;
         PlayerPrefs.SetFloat("Brightness",_sliderValue);
         brightnessPanel.color = new Color(brightnessPanel.color.r, brightnessPanel.color.g, brightnessPanel.color.b,
-            brightneSlider.value);
+            .99f - brightneSlider.value);
     }
 
     public void SetMusicVolume()
