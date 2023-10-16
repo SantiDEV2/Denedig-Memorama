@@ -2132,6 +2132,7 @@ MonoBehaviour:
   carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   Xpos: 5.25
   Ypos: 2
+  waveButton: {fileID: 0}
 --- !u!114 &391373802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2186,6 +2187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playername: {fileID: 1523576227}
+  falseresolver: {fileID: 0}
 --- !u!1 &418338837
 GameObject:
   m_ObjectHideFlags: 0
@@ -15020,6 +15022,11 @@ MonoBehaviour:
   SFXSlider: {fileID: 356295673}
   brightneSlider: {fileID: 721658679}
   brightnessPanel: {fileID: 313060921}
+  fadeimage: {fileID: 0}
+  fadecon: {fileID: 0}
+  fadetime: 3
+  fadetimeout: 2
+  scene: MenuMemorama
 --- !u!4 &2020484938
 Transform:
   m_ObjectHideFlags: 0
