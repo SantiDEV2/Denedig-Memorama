@@ -48,7 +48,7 @@ public class Settings : MonoBehaviour
 
     void Start()
     {
-        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.99f);
+        brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0);
         brightnessPanel.color = new Color(brightnessPanel.color.r, brightnessPanel.color.g, brightnessPanel.color.b,
             .99f - brightneSlider.value);
         if (PlayerPrefs.HasKey("musicVolume"))
