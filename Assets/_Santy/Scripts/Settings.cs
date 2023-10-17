@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
@@ -22,7 +23,15 @@ public class Settings : MonoBehaviour
     private float _sliderValue = .99f;
     public Image brightnessPanel;
 
-     private void Awake()
+    [Header("Fade")]
+    public Image fadeimage;
+    public GameObject fadecon;
+    public int fadetime;
+    public float fadetimeout;
+    bool fadetoscene;
+    public string scene;
+
+    void Awake()
     {
         if (Instance == null)
         {
@@ -32,8 +41,11 @@ public class Settings : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        fadecon.SetActive(true);
+        fadetoscene = false;
     }
-    
+
     void Start()
     {
         brightneSlider.value = PlayerPrefs.GetFloat("Brightness", 0.99f);
@@ -48,6 +60,16 @@ public class Settings : MonoBehaviour
             SetMusicVolume();
             SetSFXVolume();
         }
+
+        fadeimage.CrossFadeAlpha(0, fadetime, false);//Opacidad (0 o 1) // duracion // ignorar TimeScale
+        StartCoroutine(fadefalser());
+    }
+
+    private IEnumerator fadefalser()
+    {
+        yield return new WaitForSeconds(fadetime + 1);
+        fadecon.SetActive(false);
+        StopCoroutine(fadefalser());
     }
 
     public void ChangeBrightness(float value)
@@ -108,9 +130,24 @@ public class Settings : MonoBehaviour
         }
     }
 
-    public void ChangeScene(string scene)
+    public void ChangeScene()
     {
-        SceneManager.LoadScene(scene);
+        fadecon.SetActive(true);
+        fadeimage.CrossFadeAlpha(1, fadetime, false);//Opacidad (0 o 1) // duracion // ignorar TimeScale
+        StartCoroutine(FadeTruer());
+    }
+
+    private IEnumerator FadeTruer()
+    {
+        yield return new WaitForSeconds(fadetimeout);
+        fadetoscene = true;
+
+        if (fadetoscene == true)
+        {
+            SceneManager.LoadScene(scene);
+        }
+
+        StopCoroutine(FadeTruer());
     }
 
     public void RestartScene(string scene)

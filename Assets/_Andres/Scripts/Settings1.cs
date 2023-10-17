@@ -25,7 +25,10 @@ public class Settings1 : MonoBehaviour
     public Slider SliderGreen;
     public Slider SliderBlue;
 
-     private void Awake()
+    [Header("Fade")]
+    public Image fadeimage;
+
+    void Awake()
     {
         if (Instance == null)
         {
@@ -35,6 +38,8 @@ public class Settings1 : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        fadeimage.enabled = true;
     }
     
     void Start()
@@ -42,6 +47,8 @@ public class Settings1 : MonoBehaviour
         //SliderSize.minValue = 0.33f;
         //SliderSize.maxValue = 3f;
         SliderSensibility.value = PlayerPrefs.GetFloat("sensibilidad",0.5f);
+        
+        fadeimage.CrossFadeAlpha(0, 5, false);//Opacidad a 1 // duracion 4 segundos // ignorar TimeScale -> false
     }
 
 
