@@ -19,6 +19,7 @@ public class Spawn_Max : MonoBehaviour
     private int _cartasSpawneadas = 0;
     private int currentWave = 0;
     private int[] waveCardCounts = { 8, 12, 16, 20 };
+    
 
     private List<int> CardIDs;
 
@@ -28,6 +29,7 @@ public class Spawn_Max : MonoBehaviour
     {
         CardIDs = MixCards(waveCardCounts[currentWave]);
         SpawnCards(waveCardCounts[currentWave]);
+        
 
         // Asigna la función OnWaveButtonClicked al botón de Unity.
         waveButton.onClick.AddListener(OnWaveButtonClicked);
@@ -71,6 +73,7 @@ public class Spawn_Max : MonoBehaviour
                     cartaenturno.id = CardIDs[_cartasSpawneadas];
                     cartaenturno.AsignarImagendeCarta(imagenesdeCartas[cartaenturno.id]);
                     cartaenturno.AsignarTextodeCarta(textodeCartas[cartaenturno.id]);
+                    
 
                     cartas.transform.position = new Vector2(x * espacio.x - Xpos, y * espacio.y - Ypos);
                     _cartasSpawneadas++;
