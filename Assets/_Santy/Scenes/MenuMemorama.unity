@@ -2351,6 +2351,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 220417146}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &103879045
 GameObject:
   m_ObjectHideFlags: 0
@@ -4017,6 +4019,8 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 164139578}
   - {fileID: 3428633}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &251351983
 GameObject:
   m_ObjectHideFlags: 0
@@ -5558,7 +5562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &399734289
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6674,6 +6678,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 0}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &514637469
 GameObject:
   m_ObjectHideFlags: 0
@@ -7450,6 +7456,8 @@ MonoBehaviour:
   - {fileID: 2049003721}
   - {fileID: 804017030}
   - {fileID: 2130466178}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &570060228
 GameObject:
   m_ObjectHideFlags: 0
@@ -11403,6 +11411,8 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 634402743}
   - {fileID: 164139578}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &924227131
 GameObject:
   m_ObjectHideFlags: 0
@@ -11909,6 +11919,8 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 71087707}
   - {fileID: 2005321666}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &1019430258
 GameObject:
   m_ObjectHideFlags: 0
@@ -12534,6 +12546,8 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 634402743}
   - {fileID: 556904631}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &1062417344
 GameObject:
   m_ObjectHideFlags: 0
@@ -13198,6 +13212,8 @@ MonoBehaviour:
   - {fileID: 384074702}
   - {fileID: 778943707}
   - {fileID: 251351987}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &1117214945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14825,6 +14841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 3428633}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &1245172229
 GameObject:
   m_ObjectHideFlags: 0
@@ -17459,7 +17477,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -750, y: 423.47223}
+  m_AnchoredPosition: {x: -749.99994, y: 423.47223}
   m_SizeDelta: {x: -1700, y: -940}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511357340
@@ -19856,6 +19874,8 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 0}
   - {fileID: 556904631}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!1 &1683030411
 GameObject:
   m_ObjectHideFlags: 0
@@ -25332,6 +25352,8 @@ MonoBehaviour:
   - {fileID: 251351987}
   - {fileID: 71087707}
   - {fileID: 2005321666}
+  newSize: 20
+  newFont: {fileID: 0}
 --- !u!4 &2128017241
 Transform:
   m_ObjectHideFlags: 0
