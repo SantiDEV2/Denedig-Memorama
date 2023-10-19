@@ -5676,11 +5676,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   filas: 8
-  columnas: 1
-  espacio: {x: 1.52, y: 0}
+  columnas: 3
+  espacio: {x: 1.5, y: 2.25}
   carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
-  Xpos: 4.91
-  Ypos: 0.46
+  Xpos: 5.25
+  Ypos: 2
   waveButton: {fileID: 888463813}
 --- !u!114 &391373805
 MonoBehaviour:
@@ -5694,13 +5694,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 506afaf9c41a9f042a6fb1c35e554fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CheckText: {fileID: 0}
+  WrongText: {fileID: 0}
+  size: {x: 0, y: 0, z: 0}
+  pila1: {fileID: 0}
+  pila2: {fileID: 0}
+  pila3: {fileID: 0}
+  pila4: {fileID: 0}
+  pila5: {fileID: 0}
+  pila6: {fileID: 0}
+  pila7: {fileID: 0}
+  pila8: {fileID: 0}
+  pila9: {fileID: 0}
+  pila10: {fileID: 0}
+  pila11: {fileID: 0}
+  pila12: {fileID: 0}
   boton: {fileID: 888463811}
-  collidersDeCartasEnOleada:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &401093231
 GameObject:
   m_ObjectHideFlags: 0
@@ -12629,6 +12638,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
         m_MethodName: OnWaveButtonClicked
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 888463811}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

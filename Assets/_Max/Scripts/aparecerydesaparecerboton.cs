@@ -2,18 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class aparecerydesaparecerboton : MonoBehaviour
+public class aparecerydesaparecerboton : Comparisons
 {
     public GameObject boton;
-    public List<Collider> collidersDeCartasEnOleada = new List<Collider>();
+    //public Transform cartas;
+   
     // Start is called before the first frame update
-    void VerificarCollidersDeOleada()
-    {
-        if (collidersDeCartasEnOleada.Count == 0)
-        {
-            boton.SetActive(true); // Activa el objeto del botón
-        }
-    }
+   
 
     void Start()
     {
@@ -21,8 +16,25 @@ public class aparecerydesaparecerboton : MonoBehaviour
     }
 
     // Update is called once per frame
+   
+    /*bool CartasNoEnPosicionInicial()
+    {
+        foreach (Transform carta in cartavol1)
+        {
+            if (carta.position.y != -4)
+            {
+                return true; 
+            }
+        }
+        return false; 
+    }*/
     void Update()
     {
+        if (Cuentalugar == 8)
+        {
+            boton.gameObject.SetActive(true);
+        }
         
     }
+
 }
