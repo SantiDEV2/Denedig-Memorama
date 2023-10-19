@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class aparecerydesaparecerboton : Comparisons
+public class aparecerdesaparecerboton : Comparisons
 {
     public GameObject boton;
     //public Transform cartas;
-   
+
     // Start is called before the first frame update
-   
+
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class aparecerydesaparecerboton : Comparisons
     }
 
     // Update is called once per frame
-   
+
     /*bool CartasNoEnPosicionInicial()
     {
         foreach (Transform carta in cartavol1)
@@ -34,7 +34,19 @@ public class aparecerydesaparecerboton : Comparisons
         {
             boton.gameObject.SetActive(true);
         }
-        
-    }
+        if (Cuentalugar == 12)
+        {
+            boton.gameObject.SetActive(true);
+        }
+        if (Cuentalugar == 16)
+        {
+            boton.gameObject.SetActive(true);
+        }
+        if (Cuentalugar == 20)
+        {
+            boton.gameObject.SetActive(true);
+        }
 
+
+    }
 }
