@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class aparecerdesaparecerboton : Comparisons
 {
@@ -13,6 +14,7 @@ public class aparecerdesaparecerboton : Comparisons
     void Start()
     {
         boton.SetActive(false);
+        //boton.onClick.AddListener(OcultarBoton);
     }
 
     // Update is called once per frame
@@ -30,23 +32,29 @@ public class aparecerdesaparecerboton : Comparisons
     }*/
     void Update()
     {
-        if (Cuentalugar == 8)
-        {
-            boton.gameObject.SetActive(true);
-        }
-        if (Cuentalugar == 12)
-        {
-            boton.gameObject.SetActive(true);
-        }
-        if (Cuentalugar == 16)
-        {
-            boton.gameObject.SetActive(true);
-        }
-        if (Cuentalugar == 20)
-        {
-            boton.gameObject.SetActive(true);
-        }
+       
+        string texto = CheckText.text;
 
+        
+        if (texto.Contains("4 / 20")) 
+        {
+            boton.gameObject.SetActive(true);
+        }
+        else
+        {
+            boton.gameObject.SetActive(false);
+        }
+        
+        /*if (texto.Contains("6 / 20"))
+        {
+            boton.gameObject.SetActive(true);
+        }
+        else
+        {
+            boton.gameObject.SetActive(false);
+        }*/
 
     }
+
+    
 }
