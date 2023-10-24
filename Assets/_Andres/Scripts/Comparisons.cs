@@ -22,8 +22,11 @@ public class Comparisons : MonoBehaviour
 
     public static int Cuentalugar = 20;
 
-    public Vector3 size = new Vector3(0,0,0);
+    public Vector3 size = new Vector3(0, 0, 0);
+    public Vector3 centresize = new Vector3(0, 0, 0);
+    public Vector3 centreangle = new Vector3(0, 0, 0);
 
+    public Transform tocenter;
     //Transforms
     #region
     public Transform pila1;
@@ -65,6 +68,16 @@ public class Comparisons : MonoBehaviour
                 if(Checktimerend == true)
                 {
                     /*settings1.PlaySfx("EXITO");*/
+
+                    cartavol1.transform.position = tocenter.transform.position;
+                    cartavol2.transform.position = tocenter.transform.position;
+
+                    cartavol1.transform.localScale = centresize;
+                    cartavol2.transform.localScale = centresize;
+
+                    cartavol1.transform.Rotate(centreangle);
+                    cartavol2.transform.Rotate(centreangle);
+
                     StartCoroutine(Truespaw());
                 }
             }
