@@ -5399,7 +5399,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2020484937}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetSFXVolume
         m_Mode: 1
@@ -5503,9 +5503,9 @@ GameObject:
   - component: {fileID: 391373799}
   - component: {fileID: 391373802}
   - component: {fileID: 391373801}
+  - component: {fileID: 391373805}
   - component: {fileID: 391373804}
   - component: {fileID: 391373803}
-  - component: {fileID: 391373805}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -5644,6 +5644,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 391373798}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b3a925f57fc76498133e69e6ba94e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckText: {fileID: 1408095926}
+  WrongText: {fileID: 1909349342}
+  size: {x: 0, y: 0, z: 0}
+  pila1: {fileID: 0}
+  pila2: {fileID: 0}
+  pila3: {fileID: 0}
+  pila4: {fileID: 0}
+  pila5: {fileID: 0}
+  pila6: {fileID: 0}
+  pila7: {fileID: 0}
+  pila8: {fileID: 0}
+  pila9: {fileID: 0}
+  pila10: {fileID: 0}
+  pila11: {fileID: 0}
+  pila12: {fileID: 0}
+  boton: {fileID: 888463811}
+  tiempoEspera: 0.5
+--- !u!114 &391373805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391373798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c940a08f9a0739438486a78d18c18f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -5679,38 +5708,9 @@ MonoBehaviour:
   columnas: 3
   espacio: {x: 1.5, y: 2.25}
   carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
-  Xpos: 5.25
+  Xpos: 3.54
   Ypos: 2
   waveButton: {fileID: 888463813}
---- !u!114 &391373805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391373798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9b3a925f57fc76498133e69e6ba94e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CheckText: {fileID: 1408095926}
-  WrongText: {fileID: 1909349342}
-  size: {x: 0, y: 0, z: 0}
-  pila1: {fileID: 0}
-  pila2: {fileID: 0}
-  pila3: {fileID: 0}
-  pila4: {fileID: 0}
-  pila5: {fileID: 0}
-  pila6: {fileID: 0}
-  pila7: {fileID: 0}
-  pila8: {fileID: 0}
-  pila9: {fileID: 0}
-  pila10: {fileID: 0}
-  pila11: {fileID: 0}
-  pila12: {fileID: 0}
-  boton: {fileID: 888463811}
-  tiempoEspera: 0.5
 --- !u!1 &401093231
 GameObject:
   m_ObjectHideFlags: 0
@@ -7176,7 +7176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 16, y: -80}
+  m_AnchoredPosition: {x: 16, y: 0}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &510330321
@@ -8517,7 +8517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2020484937}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -9314,7 +9314,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2020484937}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: ChangeBrightness
         m_Mode: 4
@@ -12588,7 +12588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 620, y: 55}
+  m_AnchoredPosition: {x: 391, y: -371}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888463813
@@ -12635,8 +12635,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 391373801}
-        m_TargetAssemblyTypeName: Spawner, Assembly-CSharp
+      - m_Target: {fileID: 391373805}
+        m_TargetAssemblyTypeName: Spawn_Max, Assembly-CSharp
         m_MethodName: OnWaveButtonClicked
         m_Mode: 1
         m_Arguments:
@@ -12647,36 +12647,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 391373805}
-        m_TargetAssemblyTypeName: aparecerydesaparecerboton, Assembly-CSharp
-        m_MethodName: DesactivarBoton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-=======
->>>>>>> fba8f5073f83968a0839ae4e307d4b3624db2966
->>>>>>> Stashed changes
 --- !u!114 &888463814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13100,7 +13070,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2020484937}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -18424,7 +18394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 300, y: 80}
+  m_AnchoredPosition: {x: 300, y: 0}
   m_SizeDelta: {x: 401.7, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408095926
@@ -23762,7 +23732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100, y: 80}
+  m_AnchoredPosition: {x: -100, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1909349342
@@ -25284,44 +25254,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020484938}
-  - component: {fileID: 2020484937}
   m_Layer: 0
   m_Name: SettingManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &2020484937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020484936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c71cb22e6aa46941a3fd0f315aa5418, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicSounds:
-  - Clip: {fileID: 8300000, guid: 0fd4e898abfdc5a4591b87e4fcdcc708, type: 3}
-    Name: MainMusic
-  sfxSounds:
-  - Clip: {fileID: 8300000, guid: c1ae8dbbb48422f4d8b2a33f3ca51ce2, type: 3}
-    Name: Card
-  musicSource: {fileID: 591029827}
-  sfxSource: {fileID: 336810919}
-  audioController: {fileID: 24100000, guid: a7d33fa88a80dbc4fbcaca30d9297069, type: 2}
-  musicSlider: {fileID: 2099566584}
-  SFXSlider: {fileID: 356295673}
-  brightneSlider: {fileID: 721658679}
-  brightnessPanel: {fileID: 313060921}
-  fadeimage: {fileID: 0}
-  fadecon: {fileID: 0}
-  fadetime: 0
-  fadetimeout: 0
-  scene: 
+  m_IsActive: 1
 --- !u!4 &2020484938
 Transform:
   m_ObjectHideFlags: 0
@@ -25473,37 +25412,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &2061054996
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2061054999}
-  m_Layer: 0
-  m_Name: botonap/des
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2061054999
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061054996}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.92772335, y: 0.9196543, z: 36.021484}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065674710
 GameObject:
   m_ObjectHideFlags: 0
@@ -26272,7 +26180,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2020484937}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 1
