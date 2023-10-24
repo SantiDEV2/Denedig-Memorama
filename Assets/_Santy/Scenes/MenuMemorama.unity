@@ -371,58 +371,94 @@ MonoBehaviour:
           m_StringArgument: ButtonEntry
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1661388918}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1355406860}
         m_TargetAssemblyTypeName: ModeChange, Assembly-CSharp
         m_MethodName: OnPlay
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 206218941}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1882935751}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1245172229}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 457374684}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 837484752}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1340854824}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1148103524}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2352,7 +2388,6 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 220417146}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &103879045
 GameObject:
   m_ObjectHideFlags: 0
@@ -4020,7 +4055,6 @@ MonoBehaviour:
   - {fileID: 164139578}
   - {fileID: 3428633}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &251351983
 GameObject:
   m_ObjectHideFlags: 0
@@ -6679,7 +6713,6 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 0}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &514637469
 GameObject:
   m_ObjectHideFlags: 0
@@ -7457,7 +7490,6 @@ MonoBehaviour:
   - {fileID: 804017030}
   - {fileID: 2130466178}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &570060228
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,6 +11368,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8039833917330448492, guid: 3ae4cf74847a0c14db905a63264a1cac, type: 3}
+      propertyPath: newFont
+      value: 
+      objectReference: {fileID: 11400000, guid: 7aae6444f5998c044b053c29ad23b7e0, type: 2}
+    - target: {fileID: 8039833917330448492, guid: 3ae4cf74847a0c14db905a63264a1cac, type: 3}
       propertyPath: textMeshProTexts.Array.data[0]
       value: 
       objectReference: {fileID: 219596863}
@@ -11412,7 +11448,6 @@ MonoBehaviour:
   - {fileID: 634402743}
   - {fileID: 164139578}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &924227131
 GameObject:
   m_ObjectHideFlags: 0
@@ -11920,7 +11955,6 @@ MonoBehaviour:
   - {fileID: 71087707}
   - {fileID: 2005321666}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &1019430258
 GameObject:
   m_ObjectHideFlags: 0
@@ -12547,7 +12581,6 @@ MonoBehaviour:
   - {fileID: 634402743}
   - {fileID: 556904631}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &1062417344
 GameObject:
   m_ObjectHideFlags: 0
@@ -13213,7 +13246,6 @@ MonoBehaviour:
   - {fileID: 778943707}
   - {fileID: 251351987}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &1117214945
 GameObject:
   m_ObjectHideFlags: 0
@@ -14842,7 +14874,6 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 3428633}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &1245172229
 GameObject:
   m_ObjectHideFlags: 0
@@ -19875,7 +19906,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 556904631}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!1 &1683030411
 GameObject:
   m_ObjectHideFlags: 0
@@ -25039,6 +25069,10 @@ PrefabInstance:
       value: FontManager8
       objectReference: {fileID: 0}
     - target: {fileID: 4177915703897632575, guid: bdff6efcf8c3f5241ababbd50a58a924, type: 3}
+      propertyPath: newFont
+      value: 
+      objectReference: {fileID: 11400000, guid: 7aae6444f5998c044b053c29ad23b7e0, type: 2}
+    - target: {fileID: 4177915703897632575, guid: bdff6efcf8c3f5241ababbd50a58a924, type: 3}
       propertyPath: textMeshProTexts.Array.data[0]
       value: 
       objectReference: {fileID: 897583175}
@@ -25353,7 +25387,6 @@ MonoBehaviour:
   - {fileID: 71087707}
   - {fileID: 2005321666}
   newSize: 20
-  newFont: {fileID: 0}
 --- !u!4 &2128017241
 Transform:
   m_ObjectHideFlags: 0
