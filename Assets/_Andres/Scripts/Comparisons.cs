@@ -22,8 +22,13 @@ public class Comparisons : MonoBehaviour
 
     public static int Cuentalugar = 20;
 
-    public Vector3 size = new Vector3(0,0,0);
+    public float makebigtime;
 
+    public Vector3 size = new Vector3(0, 0, 0);
+    public Vector3 centresize = new Vector3(0, 0, 0);
+
+    public Transform tocenterleft;
+    public Transform tocenterright;
     //Transforms
     #region
     public Transform pila1;
@@ -65,7 +70,8 @@ public class Comparisons : MonoBehaviour
                 if(Checktimerend == true)
                 {
                     /*settings1.PlaySfx("EXITO");*/
-                    StartCoroutine(Truespaw());
+
+                    StartCoroutine(Makebig());                  
                 }
             }
 
@@ -113,6 +119,26 @@ public class Comparisons : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cuentalugar = Cuentalugar + 1;
         StopAllCoroutines();
+    }
+
+    private IEnumerator Makebig()
+    {
+        cartavol1.GetComponent<Animator>().enabled = false;
+        cartavol2.GetComponent<Animator>().enabled = false;
+
+        cartavol1.transform.position = tocenterleft.transform.position;
+        cartavol2.transform.position = tocenterright.transform.position;
+
+        cartavol1.transform.localScale = centresize;
+        cartavol2.transform.localScale = centresize;
+
+        cartavol1.transform.rotation = tocenterleft.transform.rotation;
+        cartavol2.transform.rotation = tocenterright.transform.rotation;
+
+        yield return new WaitForSeconds(makebigtime);
+
+        StopCoroutine(Makebig());
+        StartCoroutine(Truespaw());
     }
 
     void CorrectParPos()//sonidos en los if cuando aciertos 
