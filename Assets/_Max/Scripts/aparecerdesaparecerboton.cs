@@ -1,61 +1,71 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
-public class aparecerdesaparecerboton : Comparisons
+public class aparecerdesaparecerboton : MonoBehaviour
 {
     public GameObject boton;
+
+    public TextMeshProUGUI textopar;
 
     public float tiempoEspera = 0.5f;
 
    
-    private bool botonActivo = false;
+    //private bool botonActivo = false;
 
 
     void Start()
     {
         boton.SetActive(false);
 
-        //boton.onClick.AddListener(OcultarBoton);
+        
     }
 
     // Update is called once per frame
 
-    /*bool CartasNoEnPosicionInicial()
-    {
-        foreach (Transform carta in cartavol1)
-        {
-            if (carta.position.y != -4)
-            {
-                return true; 
-            }
-        }
-        return false; 
-    }*/
+    
     void Update()
     {
        
-        string texto = CheckText.text;
+        string texto = textopar.text;
 
         
         if (texto.Contains("4 / 20")) 
         {
             boton.gameObject.SetActive(true);
         }
-        else
+        else if (texto.Contains("5 / 20"))
         {
             boton.gameObject.SetActive(false);
         }
         
-        /*if (texto.Contains("6 / 20"))
+        if (texto.Contains("10 / 20"))
         {
             boton.gameObject.SetActive(true);
         }
-        else
+        else if (texto.Contains("11 / 20"))
         {
             boton.gameObject.SetActive(false);
-        }*/
+        }
+        if (texto.Contains("4 / 20")) 
+        {
+            boton.gameObject.SetActive(true);
+        }
+        else if (texto.Contains("5 / 20"))
+        {
+            boton.gameObject.SetActive(false);
+        }
+        
+        if (texto.Contains("10 / 20"))
+        {
+            boton.gameObject.SetActive(true);
+        }
+        else if (texto.Contains("11 / 20"))
+        {
+            boton.gameObject.SetActive(false);
+        }
 
     }
 
