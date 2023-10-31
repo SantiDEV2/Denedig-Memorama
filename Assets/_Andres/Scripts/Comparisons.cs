@@ -29,6 +29,10 @@ public class Comparisons : MonoBehaviour
 
     public Transform tocenterleft;
     public Transform tocenterright;
+
+    public GameObject ruleta;
+    public Animator rule;
+
     //Transforms
     #region
     public Transform pila1;
@@ -47,6 +51,8 @@ public class Comparisons : MonoBehaviour
 
     void Start()
     {
+        rule.enabled = false;
+        ruleta.SetActive(false);
         Cuentalugar = 1;
         aciertos = 0;
         errores = 0;
@@ -113,6 +119,9 @@ public class Comparisons : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
 
+        rule.enabled = false;
+        ruleta.SetActive(false);
+
         CorrectParPos();
 
         Checktimerend = false;
@@ -134,6 +143,9 @@ public class Comparisons : MonoBehaviour
 
         cartavol1.transform.rotation = tocenterleft.transform.rotation;
         cartavol2.transform.rotation = tocenterright.transform.rotation;
+
+        ruleta.SetActive(true);
+        rule.enabled = true;
 
         yield return new WaitForSeconds(makebigtime);
 
