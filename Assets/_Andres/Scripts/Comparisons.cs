@@ -16,6 +16,7 @@ public class Comparisons : MonoBehaviour
 
     public static bool Errortimerend = false;
     public static bool Checktimerend = false;
+    public static bool timepause = false;
 
     public static GameObject cartavol1;
     public static GameObject cartavol2;
@@ -125,6 +126,7 @@ public class Comparisons : MonoBehaviour
         CorrectParPos();
 
         Checktimerend = false;
+        timepause = false;
         Cursor.lockState = CursorLockMode.None;
         Cuentalugar = Cuentalugar + 1;
         StopAllCoroutines();
@@ -132,6 +134,8 @@ public class Comparisons : MonoBehaviour
 
     private IEnumerator Makebig()
     {
+        timepause = true;
+
         cartavol1.GetComponent<Animator>().enabled = false;
         cartavol2.GetComponent<Animator>().enabled = false;
 

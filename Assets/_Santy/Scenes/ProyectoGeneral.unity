@@ -3792,6 +3792,7 @@ MonoBehaviour:
   tocenterright: {fileID: 1833306150}
   ruleta: {fileID: 381370987}
   rule: {fileID: 1549336579}
+  timeCount: {fileID: 391373799}
   pila1: {fileID: 1909759027}
   pila2: {fileID: 1150105611}
   pila3: {fileID: 1351596291}
