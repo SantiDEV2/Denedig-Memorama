@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using TMPro;
 
 public class Cards : MonoBehaviour
 {
     public int id { get; set; }
     public SpriteRenderer cartaImagen;
     public SpriteRenderer TextoImagen;
+    public TextMeshPro textoimage;
 
     private int _selectcart;
     private GameObject _cartaselec;
@@ -42,8 +44,8 @@ public class Cards : MonoBehaviour
         cartaImagen.sprite = imagen;
     }
 
-    public void AsignarTextodeCarta(Sprite Texto)
+    public void AsignarTextodeCarta(TextMeshPro Texto)
     {
-        TextoImagen.sprite = Texto;
+        textoimage.text = Texto.text;
     }
 }

@@ -4,12 +4,13 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class Spawn_Max : MonoBehaviour
 {
     public Sprite[] imagenesdeCartas;
-    public Sprite[] textodeCartas;
+    public TextMeshPro[] textodeCartas;
     public int filas = 8;
     public int columnas = 3;
     public Vector2 espacio = Vector2.zero;
