@@ -31,8 +31,6 @@ public class LeaderBoard : MonoBehaviour
     {
 
         _playerScore = (int)timeCount.puntos;
-
-
         _playerScore1 = timeCount.puntos;
         _playerScoreText.text = "Your score: " + _playerScore1;
       
