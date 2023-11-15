@@ -134,6 +134,7 @@ public class Settings : MonoBehaviour
     {
         fadecon.SetActive(true);
         fadeimage.CrossFadeAlpha(1, fadetime, false);//Opacidad (0 o 1) // duracion // ignorar TimeScale
+        Settings.Instance.PlaySfx("Contador");
         StartCoroutine(FadeTruer());
     }
 

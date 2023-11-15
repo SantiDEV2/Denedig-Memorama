@@ -20,23 +20,15 @@ public class Spawner : MonoBehaviour
     private int _cartasSpawneadas = 0;
     private int currentWave = 0;
     private int[] waveCardCounts = { 8, 12, 16, 20 };
-
     private List<int> CardIDs;
-
-    public Button waveButton; // Asigna el botón de Unity desde el Inspector.
+    public Button waveButton;
 
     void Start()
     {
         CardIDs = MixCards(waveCardCounts[currentWave]);
         SpawnCards(waveCardCounts[currentWave]);
-
-        // Asigna la función OnWaveButtonClicked al botón de Unity.
+        // Asigna la funciï¿½n OnWaveButtonClicked al botï¿½n de Unity.
         waveButton.onClick.AddListener(OnWaveButtonClicked);
-    }
-
-    void Update()
-    {
-        // No necesitas la detección de tecla en este caso.
     }
 
     public void OnWaveButtonClicked()
@@ -46,7 +38,6 @@ public class Spawner : MonoBehaviour
             currentWave++;
             CardIDs = MixCards(waveCardCounts[currentWave]);
         }
-
         SpawnCards(waveCardCounts[currentWave]);
     }
 

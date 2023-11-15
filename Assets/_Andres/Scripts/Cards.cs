@@ -18,6 +18,7 @@ public class Cards : MonoBehaviour
     public void OnMouseDown()
     {
         animopen.SetTrigger("Open");
+        Settings.Instance.PlaySfx("VolteoCarta");
         //this.transform.Rotate(0,180,0);
         Comparisons.CartasVolteadas += 1;
         _selectcart = this.id;
