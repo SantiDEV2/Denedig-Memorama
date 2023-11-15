@@ -45,7 +45,7 @@ public class LeaderBoard : MonoBehaviour
             entryField.text = "";
         }
 
-        for (int i = 0; i < entries.Length; i++)
+        for (int i = 0; i <= 4; i++)
         {
             _entryFields[i].text = $"{entries[i].RankSuffix()}. {entries[i].Username} : {entries[i].Score}";
         }

@@ -22,7 +22,6 @@ public class Comparisons : MonoBehaviour
     public static GameObject cartavol2;
 
     public static int Cuentalugar = 20;
-
     public float makebigtime;
 
     public Vector3 size = new Vector3(0, 0, 0);
@@ -61,11 +60,9 @@ public class Comparisons : MonoBehaviour
 
     void Update()
     {
+
         if (CartasVolteadas == 2)
         {
-            print(firstID);
-            print(secondID);
-
             Cursor.lockState = CursorLockMode.Locked;
             if (firstID == secondID)
             {
@@ -76,8 +73,7 @@ public class Comparisons : MonoBehaviour
 
                 if(Checktimerend == true)
                 {
-                    /*settings1.PlaySfx("EXITO");*/
-
+                    Settings.Instance.PlaySfx("Completado");
                     StartCoroutine(Makebig());                  
                 }
             }
@@ -91,7 +87,7 @@ public class Comparisons : MonoBehaviour
 
                 if(Errortimerend == true)
                 {
-                    /*settings1.PlaySfx("ERROR");*/
+                    Settings.Instance.PlaySfx("Error");
                     StartCoroutine(Corspaw());
                 }
             }
@@ -101,7 +97,7 @@ public class Comparisons : MonoBehaviour
     private IEnumerator Corspaw()
     {
         yield return new WaitForSeconds(.5f);
-
+    
         //cartavol1.transform.Rotate(0, 180, 0);
         //cartavol2.transform.Rotate(0, 180, 0);
 
@@ -114,12 +110,12 @@ public class Comparisons : MonoBehaviour
         Errortimerend = false;
         Cursor.lockState = CursorLockMode.None;
         StopAllCoroutines();
+        Settings.Instance.PlaySfx("VolteoCartaError");
     }
 
     private IEnumerator Truespaw()
     {
         yield return new WaitForSeconds(.5f);
-
         rule.enabled = false;
         ruleta.SetActive(false);
 
@@ -134,6 +130,7 @@ public class Comparisons : MonoBehaviour
 
     private IEnumerator Makebig()
     {
+        /* Settings.Instance.PlaySfx("ParCompletado"); */
         timepause = true;
 
         cartavol1.GetComponent<Animator>().enabled = false;

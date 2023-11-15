@@ -35,6 +35,10 @@ public class TimeCount : MonoBehaviour
     void Update()
     {
         if(_isPaused) return;
+        if(Comparisons.Cuentalugar == 0)
+        {
+            Debug.Log("3");
+        }
 
         if(Comparisons.Cuentalugar < 20 && Comparisons.timepause == false)
         {
@@ -46,6 +50,8 @@ public class TimeCount : MonoBehaviour
             {
                 puntos = 0;
             }
+
+            Debug.Log("1");
         }
         
         if(Comparisons.Cuentalugar >= 21)
@@ -57,6 +63,7 @@ public class TimeCount : MonoBehaviour
             Errors.text = Comparisons.errores.ToString(); 
             textScore.text = "" + puntos.ToString("0"); // Actualizar el texto de la puntuación
             canvasScoreBoard.SetActive(true);
+                        Debug.Log("2");
         }
 
         if (Comparisons.timepause == true)
