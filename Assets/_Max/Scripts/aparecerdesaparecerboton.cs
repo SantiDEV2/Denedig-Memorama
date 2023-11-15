@@ -6,7 +6,8 @@ using TMPro;
 
 public class aparecerdesaparecerboton : MonoBehaviour
 {
-    public GameObject boton;
+    public GameObject canvaspunt;
+    public GameObject botoncont;
 
     public TextMeshProUGUI textopar;
 
@@ -18,9 +19,8 @@ public class aparecerdesaparecerboton : MonoBehaviour
 
     void Start()
     {
-        boton.SetActive(false);
-
-        
+        canvaspunt.SetActive(false);
+        botoncont.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,49 +34,43 @@ public class aparecerdesaparecerboton : MonoBehaviour
         
         if (texto.Contains("4 / 20")) 
         {
-            boton.gameObject.SetActive(true);
-        }
-        else if (texto.Contains("5 / 20"))
-        {
-            boton.gameObject.SetActive(false);
+            canvaspunt.SetActive(true);
+            botoncont.SetActive(true);
         }
         
         if (texto.Contains("10 / 20"))
         {
-            boton.gameObject.SetActive(true);
+            canvaspunt.SetActive(true);
+            botoncont.SetActive(true);
         }
-        else if (texto.Contains("11 / 20"))
-        {
-            boton.gameObject.SetActive(false);
-        }
+        
         if (texto.Contains("4 / 20")) 
         {
-            boton.gameObject.SetActive(true);
-        }
-        else if (texto.Contains("5 / 20"))
-        {
-            boton.gameObject.SetActive(false);
+            canvaspunt.SetActive(true);
+            botoncont.SetActive(true);
         }
         
         if (texto.Contains("10 / 20"))
         {
-            boton.gameObject.SetActive(true);
+            canvaspunt.SetActive(true);
+            botoncont.SetActive(true);
         }
-        else if (texto.Contains("11 / 20"))
-        {
-            boton.gameObject.SetActive(false);
-        }
+    }
 
+    public void falsear()
+    {
+        canvaspunt.SetActive(false);
+        botoncont.SetActive(false);
     }
 
 
-    
 
 
-   /* private void Update()
-    {
-        logicaOleadas();
-    }*/
+
+    /* private void Update()
+     {
+         logicaOleadas();
+     }*/
 
     /*private void logicaOleadas()
     {
@@ -118,6 +112,28 @@ public class aparecerdesaparecerboton : MonoBehaviour
             boton.gameObject.SetActive(true);
         }
 
-    }*/
+    }
+    
+     else if (texto.Contains("5 / 20"))
+        {
+            boton.gameObject.SetActive(false);
+        }
+    else if (texto.Contains("11 / 20"))
+        {
+            boton.gameObject.SetActive(false);
+        }
+    else if (texto.Contains("5 / 20"))
+        {
+            boton.gameObject.SetActive(false);
+        }
+     else if (texto.Contains("11 / 20"))
+        {
+            boton.gameObject.SetActive(false);
+        }
+        
+     
+     
+     
+     */
 
 }

@@ -17,6 +17,7 @@ public class Comparisons : MonoBehaviour
     public static bool Errortimerend = false;
     public static bool Checktimerend = false;
     public static bool timepause = false;
+    public static bool setcanvas = false;
 
     public static GameObject cartavol1;
     public static GameObject cartavol2;
@@ -124,6 +125,30 @@ public class Comparisons : MonoBehaviour
         ruleta.SetActive(false);
 
         CorrectParPos();
+
+        if (aciertos == 4) //8 cartas
+        {
+            setcanvas = true;
+            Cuentalugar = 0;
+        }
+
+        if (aciertos == 10) //+12 cartas
+        {
+            setcanvas = true;
+            Cuentalugar = 0;
+        }
+
+        if (aciertos == 18) //+16 cartas
+        {
+            setcanvas = true;
+            Cuentalugar = 0;
+        }
+
+        if (aciertos == 28) //+20 cartas
+        {
+            setcanvas = true;
+            Cuentalugar = 0;
+        }
 
         Checktimerend = false;
         timepause = false;

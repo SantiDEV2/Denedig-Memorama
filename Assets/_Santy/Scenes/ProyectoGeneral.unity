@@ -3836,7 +3836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &344315768
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4409,7 +4409,7 @@ MonoBehaviour:
   columnas: 3
   espacio: {x: 1.5, y: 2.25}
   carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
-  Xpos: 5.25
+  Xpos: 1
   Ypos: 2
   waveButton: {fileID: 880872018}
 --- !u!114 &391373802
@@ -4459,6 +4459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playername: {fileID: 1523576227}
   falseresolver: {fileID: 272589212}
+  roundcanva: {fileID: 344315767}
 --- !u!1 &399328465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11093,10 +11094,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 344315767}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 391373804}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: falsear
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

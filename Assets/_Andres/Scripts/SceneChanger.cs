@@ -8,16 +8,36 @@ public class SceneChanger : MonoBehaviour
 {
     public TextMeshProUGUI playername;
     public GameObject falseresolver;
+    public GameObject roundcanva;
 
     public void Awake()
     {
+        roundcanva.SetActive(false);
         falseresolver.SetActive(false);
         playername.text = InputText.inputText.Player;
+    }
+
+    void Update()
+    {
+        if (Comparisons.setcanvas == true)
+        {
+            roundcanva.SetActive(true);
+        }
+
+        if(Comparisons.setcanvas == false)
+        {
+            roundcanva.SetActive(false);
+        }
     }
 
     public void SceneLoader(int SceneIndex)
     {
         SceneManager.LoadScene(SceneIndex);
+    }
+
+    public void falsear()
+    {
+        Comparisons.setcanvas = false;
     }
 
     public void Exit()

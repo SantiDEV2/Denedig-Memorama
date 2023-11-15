@@ -36,7 +36,7 @@ public class TimeCount : MonoBehaviour
     {
         if(_isPaused) return;
 
-        if(Comparisons.Cuentalugar < 20 && Comparisons.timepause == false)
+        if(Comparisons.Cuentalugar < 20 && Comparisons.timepause == false && Comparisons.setcanvas == false)
         {
             time += Time.deltaTime;
             DisplayTime(time);
@@ -59,7 +59,7 @@ public class TimeCount : MonoBehaviour
             canvasScoreBoard.SetActive(true);
         }
 
-        if (Comparisons.timepause == true)
+        if (Comparisons.timepause == true || Comparisons.setcanvas == true)
         {
             time += 0;
             DisplayTime(time);
