@@ -27,15 +27,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 258756210688
-    m_Localized: Vestimenta
-    m_Metadata:
-      m_Items: []
-  - m_Id: 261738360832
-    m_Localized: Lugares
+    m_Localized: Dioses
     m_Metadata:
       m_Items: []
   - m_Id: 268457635840
-    m_Localized: Diversidad Cultural
+    m_Localized: "Diversidad \nCultural"
     m_Metadata:
       m_Items: []
   - m_Id: 654560096256
@@ -44,6 +40,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 847162535936
     m_Localized: Artesanias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19390639956647936
+    m_Localized: Animales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19391018052182016
+    m_Localized: Regresar
     m_Metadata:
       m_Items: []
   references:

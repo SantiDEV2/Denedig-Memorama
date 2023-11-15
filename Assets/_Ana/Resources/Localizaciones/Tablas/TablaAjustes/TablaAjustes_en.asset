@@ -24,26 +24,40 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
-  - m_Id: 63872069632
-    m_Localized: 'Music volume
-
-'
+  - m_Id: 19427667301720064
+    m_Localized: Screen
     m_Metadata:
       m_Items: []
-  - m_Id: 66422206464
-    m_Localized: 'SFX volume
-
-'
+  - m_Id: 19427325788905472
+    m_Localized: Sound Effects Volume
     m_Metadata:
       m_Items: []
-  - m_Id: 69307887616
-    m_Localized: 'BRIGHTNESS
-
-'
+  - m_Id: 19423178855374848
+    m_Localized: Music Volume
     m_Metadata:
       m_Items: []
-  - m_Id: 72327786496
-    m_Localized: ACCESSIBILITY
+  - m_Id: 19422880539697152
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19428776221171712
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19429013459394560
+    m_Localized: Accesibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19429399050149888
+    m_Localized: Color Blind Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19429815284490240
+    m_Localized: Languages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19440601608314880
+    m_Localized: Normal
     m_Metadata:
       m_Items: []
   references:

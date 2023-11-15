@@ -19,43 +19,39 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 251508453376
-    m_Localized: 'YAKTLETLAJTOANI
+    m_Localized: 'Atonaltin
+
+      
 
 '
     m_Metadata:
       m_Items: []
   - m_Id: 254595461120
-    m_Localized: 'TLAZOMAME
-
-'
+    m_Localized: "Tl\u0101cualo"
     m_Metadata:
       m_Items: []
   - m_Id: 258756210688
-    m_Localized: 'AMOCHIHUALI
-
-'
+    m_Localized: "Te\u014Dtl"
     m_Metadata:
       m_Items: []
-  - m_Id: 261738360832
-    m_Localized: 'Cuitlaxtli
-
-'
+  - m_Id: 19390639956647936
+    m_Localized: Nawatl
     m_Metadata:
       m_Items: []
   - m_Id: 268457635840
-    m_Localized: 'NOTLAHCAYOTLALTOTLOTLALIZTLAMATI
-
-'
+    m_Localized: "T\u014Dnaltin\n\u012Bxpolitic"
     m_Metadata:
       m_Items: []
   - m_Id: 654560096256
-    m_Localized: 'APAZTLI
-
-'
+    m_Localized: "Tl\u0101mec\u0101y\u014Dlli"
     m_Metadata:
       m_Items: []
   - m_Id: 847162535936
-    m_Localized: TLALMANALILIZTLI
+    m_Localized: Amoxtli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19391018052182016
+    m_Localized: Icueponi
     m_Metadata:
       m_Items: []
   references:

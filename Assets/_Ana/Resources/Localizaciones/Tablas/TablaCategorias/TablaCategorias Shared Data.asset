@@ -24,11 +24,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 258756210688
-    m_Key: Vestimenta
-    m_Metadata:
-      m_Items: []
-  - m_Id: 261738360832
-    m_Key: Lugares
+    m_Key: Dioses
     m_Metadata:
       m_Items: []
   - m_Id: 268457635840
@@ -41,6 +37,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 847162535936
     m_Key: Artesanias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19390639956647936
+    m_Key: Animales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19391018052182016
+    m_Key: Regresar
     m_Metadata:
       m_Items: []
   m_Metadata:

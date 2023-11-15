@@ -42,6 +42,14 @@ MonoBehaviour:
     m_Localized: Jugar
     m_Metadata:
       m_Items: []
+  - m_Id: 19376095007956992
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19376426920009728
+    m_Localized: Idiomas
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

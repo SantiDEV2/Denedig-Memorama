@@ -19,39 +19,35 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 251508453376
-    m_Localized: "CATEGORIAS\r"
+    m_Localized: Ba'alo'ob
     m_Metadata:
       m_Items: []
   - m_Id: 254595461120
-    m_Localized: 'JAANAL
-
-'
+    m_Localized: Janalbe'eno'ob
     m_Metadata:
       m_Items: []
   - m_Id: 258756210688
-    m_Localized: 'NOOK''E''
-
-'
+    m_Localized: Yuumtsilo'ob
     m_Metadata:
       m_Items: []
-  - m_Id: 261738360832
-    m_Localized: 'TU''UX
-
-'
+  - m_Id: 19390639956647936
+    m_Localized: Ba'alche'ob
     m_Metadata:
       m_Items: []
   - m_Id: 268457635840
-    m_Localized: "JEJEL\xC1ASIL MIATSIL\r\n"
+    m_Localized: "Jejel\xE1asil \nmiatsil"
     m_Metadata:
       m_Items: []
   - m_Id: 654560096256
-    m_Localized: 'MAANAJO''OB CH''UJUK
-
-'
+    m_Localized: Maanajo'ob ch'ujuk
     m_Metadata:
       m_Items: []
   - m_Id: 847162535936
-    m_Localized: ARTESANIAS
+    m_Localized: Yoochel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19391018052182016
+    m_Localized: Suut
     m_Metadata:
       m_Items: []
   references:

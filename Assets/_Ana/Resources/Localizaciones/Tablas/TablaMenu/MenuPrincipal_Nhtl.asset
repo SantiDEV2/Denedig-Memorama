@@ -19,33 +19,36 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8490479616
-    m_Localized: "Im\xE1na\r"
+    m_Localized: Tlachiyalli
     m_Metadata:
       m_Items: []
   - m_Id: 12785446912
-    m_Localized: Niyoltiltiya
+    m_Localized: "Tlachpan\u012B"
     m_Metadata:
       m_Items: []
   - m_Id: 15331389440
-    m_Localized: 'Tlahualilohtocan
-
-'
+    m_Localized: Teyoliammati
     m_Metadata:
       m_Items: []
   - m_Id: 19395670016
-    m_Localized: 'Itlatitlani
-
-'
+    m_Localized: Neltiliztli
     m_Metadata:
       m_Items: []
   - m_Id: 23015354368
-    m_Localized: 'Ipan in nahuiyan tlacatl ihuan mo ninahualtili tehcuayo
-
-'
+    m_Localized: Tlapanca ome tlacatl...
     m_Metadata:
       m_Items: []
   - m_Id: 26471460864
-    m_Localized: 'Moyapani: amo ninmotlamachtia tlahualilohtocan inin mo ninahualtilizenia'
+    m_Localized: 'Tlazocamatlalli: YOAN TLAPANCA NOCEMOYEHUAN, NOCEMOYOCHIQUIHUI
+      TLEN TLANECI TLACATI'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19376095007956992
+    m_Localized: Amoxtli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19376426920009728
+    m_Localized: Yolcatolli
     m_Metadata:
       m_Items: []
   references:

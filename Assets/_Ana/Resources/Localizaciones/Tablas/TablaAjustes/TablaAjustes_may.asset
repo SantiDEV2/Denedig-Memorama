@@ -19,29 +19,43 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 60185276416
-    m_Localized: 'AJUSTES
-
-'
+    m_Localized: Nu'ukulo'ob
     m_Metadata:
       m_Items: []
-  - m_Id: 63872069632
-    m_Localized: 'VOLUMEN LE MUSICA
-
-'
+  - m_Id: 19427667301720064
+    m_Localized: Paakat
     m_Metadata:
       m_Items: []
-  - m_Id: 66422206464
-    m_Localized: "VOLUMEN T\xC1ANIL\r\n"
+  - m_Id: 19427325788905472
+    m_Localized: "M\u0113tiac \u014Dme \u012Bc\u0113miquiz"
     m_Metadata:
       m_Items: []
-  - m_Id: 69307887616
-    m_Localized: 'LETS''BAL PANTALLA
-
-'
+  - m_Id: 19423178855374848
+    m_Localized: "M\u0113tiac c\u0113c\u0101uh \u012Bhu\u0101n cu\u012Bcatl"
     m_Metadata:
       m_Items: []
-  - m_Id: 72327786496
-    m_Localized: BIX
+  - m_Id: 19422880539697152
+    m_Localized: Juum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19428776221171712
+    m_Localized: Lets'bal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19429013459394560
+    m_Localized: Bix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19429399050149888
+    m_Localized: boonilo'ob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19429815284490240
+    m_Localized: T'aano'ob
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19440601608314880
+    m_Localized: Ma'alob
     m_Metadata:
       m_Items: []
   references:

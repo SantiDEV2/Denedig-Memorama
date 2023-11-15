@@ -25,17 +25,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 254595461120
-    m_Localized: 'MEAL
-
-'
+    m_Localized: Foods
     m_Metadata:
       m_Items: []
   - m_Id: 258756210688
-    m_Localized: "OUTFIT\r"
+    m_Localized: Gods
     m_Metadata:
       m_Items: []
-  - m_Id: 261738360832
-    m_Localized: Places
+  - m_Id: 19390639956647936
+    m_Localized: Animals
     m_Metadata:
       m_Items: []
   - m_Id: 654560096256
@@ -45,13 +43,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 268457635840
-    m_Localized: 'CULTURAL DIVERSITY
-
-'
+    m_Localized: "Cultural \nDiversity\n"
     m_Metadata:
       m_Items: []
   - m_Id: 847162535936
-    m_Localized: HANDICRAFTS
+    m_Localized: Crafts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19391018052182016
+    m_Localized: Return
     m_Metadata:
       m_Items: []
   references:

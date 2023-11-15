@@ -39,6 +39,14 @@ MonoBehaviour:
     m_Key: Recordatorio
     m_Metadata:
       m_Items: []
+  - m_Id: 19376095007956992
+    m_Key: "Info\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19376426920009728
+    m_Key: Idiomas
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
