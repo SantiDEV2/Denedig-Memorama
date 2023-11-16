@@ -18,6 +18,7 @@ public class Comparisons : MonoBehaviour
     public static bool Checktimerend = false;
     public static bool timepause = false;
     public static bool setcanvas = false;
+    public static bool setcanvascore = false;
 
     public static GameObject cartavol1;
     public static GameObject cartavol2;
@@ -33,6 +34,8 @@ public class Comparisons : MonoBehaviour
 
     public GameObject ruleta;
     public Animator rule;
+
+    public GameObject canvascore;
 
     //Transforms
     #region
@@ -52,6 +55,7 @@ public class Comparisons : MonoBehaviour
 
     void Start()
     {
+        canvascore.SetActive(false);
         rule.enabled = false;
         ruleta.SetActive(false);
         Cuentalugar = 1;
@@ -68,7 +72,7 @@ public class Comparisons : MonoBehaviour
             if (firstID == secondID)
             {
                 aciertos = aciertos + 1;
-                CheckText.text = aciertos.ToString() + " / 20";
+                CheckText.text = aciertos.ToString() + " / 28";
                 CartasVolteadas = 0;
                 Checktimerend = true;
 
@@ -142,8 +146,8 @@ public class Comparisons : MonoBehaviour
 
         if (aciertos == 28) //+20 cartas
         {
-            setcanvas = true;
-            Cuentalugar = 0;
+            canvascore.SetActive(true);
+            setcanvascore = true;
         }
 
         Checktimerend = false;
