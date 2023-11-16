@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7307685888
-    m_Localized: huellameh
+    m_Localized: "Macuilamatl\u0101catl"
     m_Metadata:
       m_Items: []
   - m_Id: 10394693632
-    m_Localized: miquiztlimeh.
+    m_Localized: "\u014Cme ocelohqueh"
     m_Metadata:
       m_Items: []
   references:

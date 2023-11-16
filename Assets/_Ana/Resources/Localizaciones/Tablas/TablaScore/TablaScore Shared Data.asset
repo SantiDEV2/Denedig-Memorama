@@ -16,19 +16,7 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 577aa1459ac9e6249977dff17f768408
   m_Entries:
   - m_Id: 121703133184
-    m_Key: Puntaje
-    m_Metadata:
-      m_Items: []
-  - m_Id: 126065209344
-    m_Key: Lugar
-    m_Metadata:
-      m_Items: []
-  - m_Id: 129517121536
-    m_Key: Nombre
-    m_Metadata:
-      m_Items: []
-  - m_Id: 132469911552
-    m_Key: Puntuaciones
+    m_Key: Tabla General
     m_Metadata:
       m_Items: []
   m_Metadata:

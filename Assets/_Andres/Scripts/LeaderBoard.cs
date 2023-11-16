@@ -19,10 +19,9 @@ public class LeaderBoard : MonoBehaviour
 
     public TimeCount timeCount;
     private int _playerScore;
-
     private float _playerScore1;
 
-    private void Start()    
+    private void Start()
     {
         Load();
     }
@@ -33,7 +32,7 @@ public class LeaderBoard : MonoBehaviour
         _playerScore = (int)timeCount.puntos;
         _playerScore1 = timeCount.puntos;
         _playerScoreText.text = "Your score: " + _playerScore1;
-      
+
     }
 
     public void Load() => Leaderboards.DemoSceneLeaderboard.GetEntries(OnLeaderboardLoaded);
@@ -47,7 +46,7 @@ public class LeaderBoard : MonoBehaviour
 
         for (int i = 0; i <= 4; i++)
         {
-            _entryFields[i].text = $"{entries[i].RankSuffix()}. {entries[i].Username} : {entries[i].Score}";
+            _entryFields[i].text = $"{entries[i].Username} : {entries[i].Score}";
         }
     }
 

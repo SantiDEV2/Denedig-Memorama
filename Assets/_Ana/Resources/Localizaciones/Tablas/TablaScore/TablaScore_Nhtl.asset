@@ -19,25 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 121703133184
-    m_Localized: 'Tlapaloa
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 126065209344
-    m_Localized: 'Calli
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 129517121536
-    m_Localized: 'Ica
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 132469911552
-    m_Localized: Tlen tlapaloameh
+    m_Localized: "Tl\u0101cu\u0101cu\u012Bcatl"
     m_Metadata:
       m_Items: []
   references:

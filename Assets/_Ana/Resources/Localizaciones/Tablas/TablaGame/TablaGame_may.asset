@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7307685888
-    m_Localized: Errores
+    m_Localized: Ba'alo'
     m_Metadata:
       m_Items: []
   - m_Id: 10394693632
-    m_Localized: Pares encontrados
+    m_Localized: "Ka'at\xFAul wil"
     m_Metadata:
       m_Items: []
   references:

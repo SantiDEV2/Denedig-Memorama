@@ -9,6 +9,11 @@ public class TextSizeAndFontChanger : MonoBehaviour
     public List<TextMeshProUGUI> textMeshProTexts; // Arrastra los objetos de texto TextMeshPro aqu� en el Inspector
     public float newSize = 20f; // Tama�o del texto que deseas establecer al hacer clic en el bot�n
 
+    void Awake()
+    {
+        ChangeTextSizeAndFont();
+    }
+    
     private void Start()
     {
         // Aseg�rate de que al menos un objeto TextMeshPro est� asignado en el Inspector

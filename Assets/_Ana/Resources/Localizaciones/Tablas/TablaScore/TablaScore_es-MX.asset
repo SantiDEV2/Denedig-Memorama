@@ -19,21 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 121703133184
-    m_Localized: 'PUNTAJE
-
-'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 126065209344
-    m_Localized: "\rLUGAR\r\n"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 129517121536
-    m_Localized: NOMBRE
-    m_Metadata:
-      m_Items: []
-  - m_Id: 132469911552
-    m_Localized: Mostrar puntuaciones
+    m_Localized: Tabla General
     m_Metadata:
       m_Items: []
   references:
