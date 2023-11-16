@@ -17,6 +17,7 @@ public class Spawner : MonoBehaviour
     public GameObject carta;
     public float Xpos = 4.91f;
     public float Ypos = 1.55f;
+    public float nextwaveXpos;
     private int _cartasSpawneadas = 0;
     private int currentWave = 0;
     private int[] waveCardCounts = { 8, 12, 16, 20 };
@@ -36,8 +37,10 @@ public class Spawner : MonoBehaviour
         if (currentWave < waveCardCounts.Length - 1)
         {
             currentWave++;
+            Xpos = Xpos + nextwaveXpos;
             CardIDs = MixCards(waveCardCounts[currentWave]);
         }
+
         SpawnCards(waveCardCounts[currentWave]);
     }
 

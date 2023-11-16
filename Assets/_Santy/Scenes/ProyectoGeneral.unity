@@ -4457,6 +4457,7 @@ MonoBehaviour:
   carta: {fileID: 2436003636294180438, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   Xpos: 1
   Ypos: 2
+  nextwaveXpos: 1
   waveButton: {fileID: 880872018}
 --- !u!114 &391373802
 MonoBehaviour:
@@ -4479,6 +4480,7 @@ MonoBehaviour:
   tocenterright: {fileID: 1833306150}
   ruleta: {fileID: 381370987}
   rule: {fileID: 1549336579}
+  canvascore: {fileID: 880443606}
   pila1: {fileID: 1909759027}
   pila2: {fileID: 1150105611}
   pila3: {fileID: 1351596291}
@@ -8640,7 +8642,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0 / 12
+  m_text: 0 / 28
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7aae6444f5998c044b053c29ad23b7e0, type: 2}
   m_sharedMaterial: {fileID: -3340893768277072087, guid: 7aae6444f5998c044b053c29ad23b7e0, type: 2}

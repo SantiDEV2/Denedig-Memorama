@@ -66,7 +66,7 @@ public class TimeCount : MonoBehaviour
                         Debug.Log("2");
         }
 
-        if (Comparisons.timepause == true || Comparisons.setcanvas == true)
+        if (Comparisons.timepause == true || Comparisons.setcanvas == true || Comparisons.setcanvascore == true)
         {
             time += 0;
             DisplayTime(time);
