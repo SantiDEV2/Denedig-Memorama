@@ -21,17 +21,12 @@ public class LeaderBoard : MonoBehaviour
     private int _playerScore;
     private float _playerScore1;
 
-    private void Start()
-    {
-        Load();
-    }
-
     public void AddPlayerScore()
     {
 
         _playerScore = (int)timeCount.puntos;
         _playerScore1 = timeCount.puntos;
-        _playerScoreText.text = "Your score: " + _playerScore1;
+        _playerScoreText.text = _playerScore1.ToString()    ;
 
     }
 
@@ -53,7 +48,7 @@ public class LeaderBoard : MonoBehaviour
     public void Submit()// Sonido boton sube puntuacion 
     {
         //Leaderboards.DemoSceneLeaderboard.UploadNewEntry(_playerUsernameInput.text, _playerScore, Callback, ErrorCallback);
-        Leaderboards.DemoSceneLeaderboard.UploadNewEntry(username.text, (int)timeCount.puntos, Callback, ErrorCallback);
+        Leaderboards.DemoSceneLeaderboard.UploadNewEntry(username.text  , (int)timeCount.puntos, Callback, ErrorCallback);
         Debug.Log(username.text);
     }
 
