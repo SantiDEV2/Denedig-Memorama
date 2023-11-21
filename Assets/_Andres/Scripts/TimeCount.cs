@@ -40,7 +40,7 @@ public class TimeCount : MonoBehaviour
             Debug.Log("3");
         }
 
-        if(Comparisons.Cuentalugar < 20 && Comparisons.timepause == false && Comparisons.setcanvas == false)
+        if(Comparisons.aciertos < 28 && Comparisons.timepause == false && Comparisons.setcanvas == false)
         {
             time += Time.deltaTime;
             DisplayTime(time);
@@ -54,7 +54,7 @@ public class TimeCount : MonoBehaviour
             Debug.Log("1");
         }
         
-        if(Comparisons.Cuentalugar >= 21)
+        if(Comparisons.aciertos >= 28)
         {
             time += 0;
             DisplayTime(time);
