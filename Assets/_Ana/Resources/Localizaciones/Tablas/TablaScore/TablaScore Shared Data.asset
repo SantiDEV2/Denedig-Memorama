@@ -19,10 +19,6 @@ MonoBehaviour:
     m_Key: Tabla General
     m_Metadata:
       m_Items: []
-  - m_Id: 21283867555356672
-    m_Key: Par Completado
-    m_Metadata:
-      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

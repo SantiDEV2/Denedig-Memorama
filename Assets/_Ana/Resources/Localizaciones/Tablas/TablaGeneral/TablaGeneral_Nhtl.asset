@@ -17,7 +17,33 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 91e8699ebe41c474d9d6f0499fb9317e, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 10889621504
+    m_Localized: "tlacuilo n\u014Dhuayan\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 801163603968
+    m_Localized: 'Calli
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13842411520
+    m_Localized: 'Ica
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16929419264
+    m_Localized: 'Tlapaloa
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8071049216
+    m_Localized: Tlen tlapaloameh
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

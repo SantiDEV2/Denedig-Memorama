@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: TablaFinal_may
+  m_Name: TablaIidomasScoreFinal_may
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: may
@@ -19,35 +19,45 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 532556181504
-    m_Localized: "Ki'imak \xF3olal"
+    m_Localized: "KI'IMAK \xD3OLAL\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 546342858752
+    m_Localized: 'A K''IIN BIN U:
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 541813010432
-    m_Localized: Chukbesaj le memorama!
+    m_Localized: 'TA CHUKBESAJ LE MEMORAMA!
+
+'
     m_Metadata:
       m_Items: []
-  - m_Id: 20211466419658752
-    m_Localized: Na'akal Ti'its
+  - m_Id: 550331641856
+    m_Localized: 'A RECORD BIN U:
+
+'
     m_Metadata:
       m_Items: []
-  - m_Id: 20209758654259200
-    m_Localized: Ti'its
+  - m_Id: 802975543296
+    m_Localized: 'ERRORES
+
+'
     m_Metadata:
       m_Items: []
-  - m_Id: 20209653263982592
-    m_Localized: K'iin
+  - m_Id: 840279683072
+    m_Localized: 'NA''AKAL PUNTAJE
+
+'
     m_Metadata:
       m_Items: []
-  - m_Id: 20217284376485888
-    m_Localized: "K\xFAuchil"
+  - m_Id: 876988231680
+    m_Localized: "WIL TABLA TUL\xC1AKAL\r\n"
     m_Metadata:
       m_Items: []
-  - m_Id: 20217699331563520
-    m_Localized: K'aaba'
-    m_Metadata:
-      m_Items: []
-  - m_Id: 20211512972238848
-    m_Localized: "K\xE9en p'\xE1at Ti'its"
+  - m_Id: 922219606016
+    m_Localized: K'A' LE MENU
     m_Metadata:
       m_Items: []
   references:

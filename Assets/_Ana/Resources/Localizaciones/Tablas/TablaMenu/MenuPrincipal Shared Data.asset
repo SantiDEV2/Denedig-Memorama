@@ -28,11 +28,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 19395670016
-    m_Key: Puntaje
+    m_Key: Puntuacion
     m_Metadata:
       m_Items: []
   - m_Id: 23015354368
-    m_Key: InsertaTuNombre
+    m_Key: Nombre
     m_Metadata:
       m_Items: []
   - m_Id: 26471460864

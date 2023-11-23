@@ -42,7 +42,7 @@ MonoBehaviour:
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b4eec7dec7d21b24b86bfbcaa987fc89
-    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaScoreFinal/TablaFinal
+    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaScoreFinal/TablaIidomasScoreFinal
       Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
@@ -56,11 +56,6 @@ MonoBehaviour:
   - m_GUID: c96539166c5031548b1f0707dffdcb31
     m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/TablaGame/TablaGame Shared
       Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4ce0a6c937487be49bdbe79404dc0448
-    m_Address: Assets/_Ana/Resources/Localizaciones/Tablas/Cartas Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
