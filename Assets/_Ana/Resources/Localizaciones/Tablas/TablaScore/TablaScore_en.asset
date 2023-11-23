@@ -22,6 +22,10 @@ MonoBehaviour:
     m_Localized: General Table
     m_Metadata:
       m_Items: []
+  - m_Id: 21283867555356672
+    m_Localized: Pair Completed
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

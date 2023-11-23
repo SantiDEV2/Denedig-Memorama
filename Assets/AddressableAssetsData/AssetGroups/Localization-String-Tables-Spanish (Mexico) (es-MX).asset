@@ -24,19 +24,13 @@ MonoBehaviour:
     - Locale-es-MX
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e6b1155dd629fdc479bd53a95c869231
-    m_Address: TablaIidomasScoreFinal_es-MX
+    m_Address: TablaFinal_es-MX
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d669788fe24992341a686a0a94f37ac3
     m_Address: TablaCategorias_es-MX
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-es-MX
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 369be2d04774b6742817bdaf5a67aa4d
-    m_Address: TablaScore_es-MX
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
@@ -58,6 +52,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es-MX
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c12755b9bf07b3d4695b9647ebece83c
+    m_Address: Cartas_es-MX
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es-MX
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 7943c1ead31053a4b9b253a1ea2f7cce, type: 2}

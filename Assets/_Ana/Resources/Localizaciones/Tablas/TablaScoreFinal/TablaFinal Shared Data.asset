@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: TablaIidomasScoreFinal Shared Data
+  m_Name: TablaFinal Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: TablaIidomasScoreFinal
+  m_TableCollectionName: TablaFinal
   m_TableCollectionNameGuidString: b4eec7dec7d21b24b86bfbcaa987fc89
   m_Entries:
   - m_Id: 532556181504
@@ -20,31 +20,31 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 541813010432
-    m_Key: Completado
+    m_Key: CompletasteElMemorama
     m_Metadata:
       m_Items: []
-  - m_Id: 546342858752
+  - m_Id: 20209653263982592
     m_Key: Tiempo
     m_Metadata:
       m_Items: []
-  - m_Id: 550331641856
-    m_Key: Record
+  - m_Id: 20209758654259200
+    m_Key: Puntos
     m_Metadata:
       m_Items: []
-  - m_Id: 802975543296
-    m_Key: Errores
+  - m_Id: 20211466419658752
+    m_Key: Subir Puntaje
     m_Metadata:
       m_Items: []
-  - m_Id: 840279683072
-    m_Key: Subir
+  - m_Id: 20211512972238848
+    m_Key: Obtener Puntajes
     m_Metadata:
       m_Items: []
-  - m_Id: 876988231680
-    m_Key: Tabla
+  - m_Id: 20217284376485888
+    m_Key: Lugar
     m_Metadata:
       m_Items: []
-  - m_Id: 922219606016
-    m_Key: Menu
+  - m_Id: 20217699331563520
+    m_Key: Nombre
     m_Metadata:
       m_Items: []
   m_Metadata:

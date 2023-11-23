@@ -17,27 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 91e8699ebe41c474d9d6f0499fb9317e, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 8071049216
-    m_Localized: Obtener puntauciones
-    m_Metadata:
-      m_Items: []
-  - m_Id: 10889621504
-    m_Localized: Tabla General
-    m_Metadata:
-      m_Items: []
-  - m_Id: 801163603968
-    m_Localized: Lugar
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13842411520
-    m_Localized: Nombre
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16929419264
-    m_Localized: Puntaje
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

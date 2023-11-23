@@ -14,27 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: TablaGeneral
   m_TableCollectionNameGuidString: 91e8699ebe41c474d9d6f0499fb9317e
-  m_Entries:
-  - m_Id: 10889621504
-    m_Key: General
-    m_Metadata:
-      m_Items: []
-  - m_Id: 801163603968
-    m_Key: Lugar
-    m_Metadata:
-      m_Items: []
-  - m_Id: 13842411520
-    m_Key: Nombre
-    m_Metadata:
-      m_Items: []
-  - m_Id: 16929419264
-    m_Key: Puntaje
-    m_Metadata:
-      m_Items: []
-  - m_Id: 8071049216
-    m_Key: Puntuaciones
-    m_Metadata:
-      m_Items: []
+  m_Entries: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
