@@ -936,6 +936,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 16
   textManager: {fileID: 950777841}
+--- !u!1 &33987593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33987594}
+  - component: {fileID: 33987595}
+  m_Layer: 0
+  m_Name: FontManager_62px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33987594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33987593}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.00708, y: 133.16144, z: 4.0462036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 626597494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &33987595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33987593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 881784097}
+  newSize: 62
 --- !u!1 &53676975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,6 +5383,7 @@ Transform:
   m_Children:
   - {fileID: 1277987991}
   - {fileID: 423682537}
+  - {fileID: 1306107547}
   - {fileID: 1664647010}
   - {fileID: 1443041025}
   - {fileID: 1503612832}
@@ -7239,7 +7287,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1800840160}
+      - m_Target: {fileID: 1937286983}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -7251,7 +7299,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1521175248}
+      - m_Target: {fileID: 33987595}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -7263,7 +7311,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1011137843}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -7275,9 +7323,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1069421753}
+      - m_Target: {fileID: 1687051394}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7287,7 +7335,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1325393533}
+      - m_Target: {fileID: 1069421755}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1647616417}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -7669,6 +7729,7 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 268334734}
   - {fileID: 826772770}
+  - {fileID: 1478890740}
   newSize: 22
 --- !u!1 &626597493
 GameObject:
@@ -7699,7 +7760,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1015466130}
+  - {fileID: 1937286982}
+  - {fileID: 33987594}
+  - {fileID: 1011137842}
+  - {fileID: 1687051393}
   - {fileID: 1069421754}
+  - {fileID: 1647616416}
   m_Father: {fileID: 950777842}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9741,6 +9807,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &822150182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 822150183}
+  - component: {fileID: 822150184}
+  m_Layer: 0
+  m_Name: FontManager_72px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &822150183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822150182}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892647709}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &822150184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822150182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1387399880}
+  - {fileID: 1317152231}
+  - {fileID: 599132137}
+  newSize: 72
 --- !u!1 &822699956
 GameObject:
   m_ObjectHideFlags: 0
@@ -9837,7 +9952,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 266326594}
+      - m_Target: {fileID: 177888053}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -9845,6 +9960,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 822150184}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9861,7 +9988,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1295191147}
+      - m_Target: {fileID: 1307705032}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -9885,7 +10012,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 403347170}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1809555068}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1468294267}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -11615,7 +11766,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &880443607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13955,7 +14106,7 @@ GameObject:
   - component: {fileID: 987734003}
   - component: {fileID: 987734002}
   m_Layer: 0
-  m_Name: FontManager_20px
+  m_Name: FontManager_19px
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14457,6 +14608,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4466192855948532027, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 999398247}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1011137841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011137842}
+  - component: {fileID: 1011137843}
+  m_Layer: 0
+  m_Name: FontManager_45px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011137842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011137841}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.00708, y: 133.16144, z: 4.0462036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 626597494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011137843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011137841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1302284059}
+  - {fileID: 1762707294}
+  - {fileID: 1282464554}
+  - {fileID: 1307332299}
+  - {fileID: 1227621064}
+  - {fileID: 826772770}
+  - {fileID: 1836701236}
+  - {fileID: 1693489629}
+  - {fileID: 449956570}
+  - {fileID: 1238268338}
+  - {fileID: 1478890740}
+  - {fileID: 1541360502}
+  newSize: 45
 --- !u!1 &1015466129
 GameObject:
   m_ObjectHideFlags: 0
@@ -14729,9 +14938,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshProTexts:
-  - {fileID: 332793562}
-  - {fileID: 1180740719}
-  newSize: 17
+  - {fileID: 977213992}
+  newSize: 22
 --- !u!1 &1107478127
 GameObject:
   m_ObjectHideFlags: 0
@@ -14741,6 +14949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107478128}
+  - component: {fileID: 1107478129}
   m_Layer: 0
   m_Name: FontManager_17px
   m_TagString: Untagged
@@ -14763,6 +14972,22 @@ Transform:
   m_Father: {fileID: 437170792}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107478129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107478127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 332793562}
+  - {fileID: 1180740719}
+  newSize: 17
 --- !u!1001 &1116288687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17079,6 +17304,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 26
   textManager: {fileID: 950777841}
+--- !u!1 &1306107546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1306107547}
+  - component: {fileID: 1306107548}
+  m_Layer: 0
+  m_Name: FontManager_63px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306107547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306107546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 437170792}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1306107548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306107546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 2065545723}
+  - {fileID: 990152283}
+  - {fileID: 945225445}
+  newSize: 63
 --- !u!1 &1307332297
 GameObject:
   m_ObjectHideFlags: 0
@@ -17229,6 +17503,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 28
   textManager: {fileID: 950777841}
+--- !u!1 &1307705030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307705031}
+  - component: {fileID: 1307705032}
+  m_Layer: 0
+  m_Name: FontManager_45px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1307705031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307705030}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892647709}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1307705032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307705030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 826772770}
+  - {fileID: 1227621064}
+  - {fileID: 826772770}
+  - {fileID: 1836701236}
+  - {fileID: 1762707294}
+  - {fileID: 1282464554}
+  - {fileID: 1307332299}
+  newSize: 45
 --- !u!1 &1317152229
 GameObject:
   m_ObjectHideFlags: 0
@@ -19093,6 +19420,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4466192855948532027, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 1459274594}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1468294265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1468294266}
+  - component: {fileID: 1468294267}
+  m_Layer: 0
+  m_Name: FontManager_22px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1468294266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468294265}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892647709}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1468294267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468294265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 977213992}
+  - {fileID: 1180740719}
+  newSize: 22
 --- !u!1 &1468369224
 GameObject:
   m_ObjectHideFlags: 0
@@ -21292,6 +21667,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1306107548}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1664647011}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21329,6 +21716,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 623172908}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1107478129}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -21658,6 +22057,54 @@ MonoBehaviour:
   - {fileID: 977213992}
   - {fileID: 1180740719}
   newSize: 22
+--- !u!1 &1647616415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1647616416}
+  - component: {fileID: 1647616417}
+  m_Layer: 0
+  m_Name: 'FontManager_17px '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1647616416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647616415}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.00708, y: 133.16144, z: 4.0462036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 626597494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1647616417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647616415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 332793562}
+  - {fileID: 1180740719}
+  newSize: 17
 --- !u!1 &1652271871
 GameObject:
   m_ObjectHideFlags: 0
@@ -22243,6 +22690,55 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1687051392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687051393}
+  - component: {fileID: 1687051394}
+  m_Layer: 0
+  m_Name: FontManager_34px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1687051393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687051392}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.00708, y: 133.16144, z: 4.0462036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 626597494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687051394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687051392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 332793562}
+  - {fileID: 229251442}
+  - {fileID: 268334734}
+  newSize: 34
 --- !u!1 &1693489627
 GameObject:
   m_ObjectHideFlags: 0
@@ -26003,6 +26499,66 @@ MonoBehaviour:
     BackgroundTexture: {fileID: 0}
     IsBackgroundRecursive: 0
     IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1937286981}
+    Ordinal: 238
+    Priority: 0
+    IconType: 1000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 1000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1011137841}
+    Ordinal: 239
+    Priority: 0
+    IconType: 1000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 1000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1687051392}
+    Ordinal: 240
+    Priority: 0
+    IconType: 1000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 1000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1069421753}
+    Ordinal: 241
+    Priority: 0
+    IconType: 1000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 1000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1647616415}
+    Ordinal: 242
+    Priority: 0
+    IconType: 1000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 1000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
 --- !u!4 &1756330934
 Transform:
   m_ObjectHideFlags: 0
@@ -27982,10 +28538,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 177888052}
+  - {fileID: 822150183}
   - {fileID: 153717168}
+  - {fileID: 1307705031}
   - {fileID: 877484650}
   - {fileID: 403347169}
   - {fileID: 1809555067}
+  - {fileID: 1468294266}
   - {fileID: 987734003}
   m_Father: {fileID: 950777842}
   m_RootOrder: -1
@@ -28357,6 +28916,57 @@ Transform:
   m_Father: {fileID: 1756171531}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1937286981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937286982}
+  - component: {fileID: 1937286983}
+  m_Layer: 0
+  m_Name: FontManager_72px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937286982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937286981}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.00708, y: 133.16144, z: 4.0462036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 626597494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1937286983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937286981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 599132137}
+  - {fileID: 1317152231}
+  - {fileID: 2065545723}
+  - {fileID: 990152283}
+  - {fileID: 945225445}
+  newSize: 72
 --- !u!1001 &1940427197
 PrefabInstance:
   m_ObjectHideFlags: 0
