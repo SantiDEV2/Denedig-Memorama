@@ -1137,7 +1137,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -78, y: -270, z: 90}
 --- !u!1001 &146602339
 PrefabInstance:
@@ -1300,6 +1300,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &153717166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153717168}
+  - component: {fileID: 153717167}
+  m_Layer: 0
+  m_Name: FontManager_70px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &153717167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153717166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1387399880}
+  newSize: 70
+--- !u!4 &153717168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153717166}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892647709}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &163358268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3125,7 +3172,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!1 &275917981
 GameObject:
@@ -3174,6 +3221,10 @@ MonoBehaviour:
   textMeshProTexts:
   - {fileID: 229251442}
   - {fileID: 268334734}
+  - {fileID: 1783071228}
+  - {fileID: 794107795}
+  - {fileID: 1763068325}
+  - {fileID: 229251442}
   newSize: 34
 --- !u!1 &288820118
 GameObject:
@@ -4018,7 +4069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &344315768
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4105,6 +4156,53 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 3
   m_TargetDisplay: 0
+--- !u!1 &350629555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 350629556}
+  - component: {fileID: 350629557}
+  m_Layer: 0
+  m_Name: FontManager_15px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &350629556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350629555}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 437170792}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &350629557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350629555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 977213992}
+  newSize: 15
 --- !u!1 &356295671
 GameObject:
   m_ObjectHideFlags: 0
@@ -5153,11 +5251,16 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1277987991}
   - {fileID: 423682537}
   - {fileID: 1946678188}
+  - {fileID: 1664647010}
   - {fileID: 2066928132}
+  - {fileID: 1443041025}
+  - {fileID: 1503612832}
   - {fileID: 623172907}
   - {fileID: 1107478128}
+  - {fileID: 350629556}
   m_Father: {fileID: 821658718}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5245,6 +5348,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 950777841}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2033038871}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -5256,7 +5371,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1829671823}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -5268,7 +5383,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1632971738}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -5280,7 +5395,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 275917983}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -5292,7 +5407,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1640939320}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -5304,7 +5419,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &446084369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6324,7 +6439,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &512152886
 GameObject:
@@ -7067,6 +7182,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 950777841}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1015466131}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1800840160}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -7078,7 +7217,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1521175248}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -7090,7 +7229,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1071283956}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -7102,7 +7241,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1491027578}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -7114,7 +7253,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1325393533}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -7126,7 +7265,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &596288217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7450,50 +7589,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605127930}
   m_CullTransparentMesh: 1
---- !u!1 &620086989
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 620086991}
-  - component: {fileID: 620086990}
-  m_Layer: 0
-  m_Name: Screenshoter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &620086990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620086989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dd6e2ea3bdd61f4497d9acf1085eaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &620086991
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620086989}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &623172906
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,6 +7635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 268334734}
+  - {fileID: 826772770}
   newSize: 22
 --- !u!1 &626597493
 GameObject:
@@ -7569,6 +7665,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1015466130}
   - {fileID: 1800840159}
   - {fileID: 1521175247}
   - {fileID: 1071283955}
@@ -9359,9 +9456,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8226398593301214788, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 759946723}
-    - targetCorrespondingSourceObject: {fileID: 8226398593301214788, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
 --- !u!4 &759946721 stripped
@@ -9369,29 +9463,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4466192855948532027, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 759946720}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &759946722 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8226398593301214788, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
-  m_PrefabInstance: {fileID: 759946720}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &759946723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759946722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &759946725 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2663152560772610660, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 759946720}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759946722}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
@@ -9754,6 +9831,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 950777841}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 266326594}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -9765,7 +9854,19 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 153717167}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1295191147}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -9777,7 +9878,19 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 877484651}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 583077854}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -9789,8 +9902,8 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 1007740441}
+        m_CallState: 2
+      - m_Target: {fileID: 987734002}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
         m_Mode: 1
@@ -9801,7 +9914,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &822699959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9954,7 +10067,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 215.98274, y: 107.99136}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826772770
 MonoBehaviour:
@@ -10262,7 +10375,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 850, y: 50}
+  m_SizeDelta: {x: 800, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837824682
 MonoBehaviour:
@@ -11443,6 +11556,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &877484649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 877484650}
+  - component: {fileID: 877484651}
+  m_Layer: 0
+  m_Name: FontManager_38px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877484650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877484649}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892647709}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &877484651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877484649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 826772770}
+  newSize: 38
 --- !u!1 &880443606
 GameObject:
   m_ObjectHideFlags: 0
@@ -13345,7 +13505,7 @@ Transform:
   m_Children:
   - {fileID: 821658718}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &962370785
 GameObject:
@@ -13787,6 +13947,53 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &987734001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987734003}
+  - component: {fileID: 987734002}
+  m_Layer: 0
+  m_Name: FontManager_20px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &987734002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987734001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 332793562}
+  newSize: 19
+--- !u!4 &987734003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987734001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1892647709}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &990152280
 GameObject:
   m_ObjectHideFlags: 0
@@ -14253,7 +14460,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4466192855948532027, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 999398247}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1007740439
+--- !u!1 &1015466129
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14261,45 +14468,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1007740440}
-  - component: {fileID: 1007740441}
+  - component: {fileID: 1015466130}
+  - component: {fileID: 1015466131}
   m_Layer: 0
-  m_Name: FontManager_22px
+  m_Name: FontManager_90px
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1007740440
+--- !u!4 &1015466130
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007740439}
+  m_GameObject: {fileID: 1015466129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.00708, y: 133.16144, z: 4.0462036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1892647709}
+  m_Father: {fileID: 626597494}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1007740441
+--- !u!114 &1015466131
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007740439}
+  m_GameObject: {fileID: 1015466129}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshProTexts:
-  - {fileID: 332793562}
-  newSize: 22
+  - {fileID: 1387399880}
+  newSize: 90
 --- !u!1 &1054337373
 GameObject:
   m_ObjectHideFlags: 0
@@ -14542,7 +14749,7 @@ GameObject:
   - component: {fileID: 1107478128}
   - component: {fileID: 1107478129}
   m_Layer: 0
-  m_Name: FontManager_18px
+  m_Name: FontManager_17px
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14577,7 +14784,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 332793562}
-  newSize: 18
+  - {fileID: 1180740719}
+  newSize: 17
 --- !u!1001 &1116288687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16310,6 +16518,53 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1277987990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277987991}
+  - component: {fileID: 1277987992}
+  m_Layer: 0
+  m_Name: FontManager_86px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1277987991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277987990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 437170792}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277987992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277987990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1387399880}
+  newSize: 86
 --- !u!1 &1282464552
 GameObject:
   m_ObjectHideFlags: 0
@@ -18150,7 +18405,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 449.99997}
-  m_SizeDelta: {x: 610, y: 80}
+  m_SizeDelta: {x: 1000, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387399880
 MonoBehaviour:
@@ -18587,6 +18842,53 @@ Transform:
   m_Father: {fileID: 1756171531}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1443041024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1443041025}
+  - component: {fileID: 1443041026}
+  m_Layer: 0
+  m_Name: FontManager_28px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1443041025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443041024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 437170792}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1443041026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443041024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1836701236}
+  newSize: 28
 --- !u!1001 &1455969326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19649,6 +19951,54 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4466192855948532027, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 1500893330}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1503612831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503612832}
+  - component: {fileID: 1503612833}
+  m_Layer: 0
+  m_Name: FontManager_25px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1503612832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503612831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 437170792}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503612833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503612831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1282464554}
+  - {fileID: 1307332299}
+  newSize: 25
 --- !u!1001 &1503668729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21118,6 +21468,30 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 950777841}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1277987992}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 423682538}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21129,7 +21503,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1946678189}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21141,7 +21515,19 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1664647011}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2066928133}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21153,7 +21539,31 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1443041026}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1503612833}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 623172908}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21165,7 +21575,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1107478129}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21177,7 +21587,19 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 350629557}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1601972151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21427,6 +21849,13 @@ MonoBehaviour:
   - {fileID: 1238268338}
   - {fileID: 1478890740}
   - {fileID: 1541360502}
+  - {fileID: 826772770}
+  - {fileID: 1227621064}
+  - {fileID: 826772770}
+  - {fileID: 1836701236}
+  - {fileID: 1762707294}
+  - {fileID: 1282464554}
+  - {fileID: 1307332299}
   newSize: 45
 --- !u!1 &1640939318
 GameObject:
@@ -21474,6 +21903,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 332793562}
+  - {fileID: 977213992}
+  - {fileID: 1180740719}
   newSize: 22
 --- !u!1 &1652271871
 GameObject:
@@ -21974,6 +22405,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4466192855948532027, guid: e8f057ca0f4b5de44b53b3706647438e, type: 3}
   m_PrefabInstance: {fileID: 1663391335}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1664647009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1664647010}
+  - component: {fileID: 1664647011}
+  m_Layer: 0
+  m_Name: FontManager_43px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1664647010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664647009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 437170792}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1664647011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664647009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 599132137}
+  newSize: 43
 --- !u!1 &1679140544
 GameObject:
   m_ObjectHideFlags: 0
@@ -24299,7 +24777,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 0
     Name: 
-    GameObject: {fileID: 620086989}
+    GameObject: {fileID: 0}
     Ordinal: 115
     Priority: 0
     IconType: 103000
@@ -25499,7 +25977,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 0
     Name: 
-    GameObject: {fileID: 1007740439}
+    GameObject: {fileID: 0}
     Ordinal: 215
     Priority: 0
     IconType: 17000
@@ -25653,6 +26131,114 @@ MonoBehaviour:
     BackgroundTexture: {fileID: 0}
     IsBackgroundRecursive: 0
     IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 987734001}
+    Ordinal: 228
+    Priority: 0
+    IconType: 17000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 17000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 877484649}
+    Ordinal: 229
+    Priority: 0
+    IconType: 17000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 17000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 153717166}
+    Ordinal: 230
+    Priority: 0
+    IconType: 17000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 17000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1664647009}
+    Ordinal: 231
+    Priority: 0
+    IconType: 13000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 13000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1277987990}
+    Ordinal: 232
+    Priority: 0
+    IconType: 13000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 13000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1503612831}
+    Ordinal: 233
+    Priority: 0
+    IconType: 13000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 13000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1443041024}
+    Ordinal: 234
+    Priority: 0
+    IconType: 13000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 13000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 350629555}
+    Ordinal: 235
+    Priority: 0
+    IconType: 13000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 13000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
+  - Type: 0
+    Name: 
+    GameObject: {fileID: 1015466129}
+    Ordinal: 236
+    Priority: 0
+    IconType: 1000
+    IconTexture: {fileID: 0}
+    IsIconRecursive: 0
+    BackgroundType: 1000
+    BackgroundTexture: {fileID: 0}
+    IsBackgroundRecursive: 0
+    IsHidden: 0
 --- !u!4 &1756330934
 Transform:
   m_ObjectHideFlags: 0
@@ -25666,7 +26252,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1762707292
 GameObject:
@@ -26883,6 +27469,8 @@ MonoBehaviour:
   - {fileID: 2065545723}
   - {fileID: 990152283}
   - {fileID: 945225445}
+  - {fileID: 1317152231}
+  - {fileID: 599132137}
   newSize: 72
 --- !u!1 &1832677030
 GameObject:
@@ -26950,7 +27538,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -76, y: -90, z: -90}
 --- !u!114 &1833423015 stripped
 MonoBehaviour:
@@ -27632,9 +28220,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 266326593}
+  - {fileID: 153717168}
   - {fileID: 1295191146}
+  - {fileID: 877484650}
   - {fileID: 583077853}
-  - {fileID: 1007740440}
+  - {fileID: 987734003}
   m_Father: {fileID: 821658718}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28269,7 +28859,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1957631114
 PrefabInstance:
@@ -28526,7 +29116,7 @@ Transform:
   - {fileID: 1524805976}
   - {fileID: 709481582}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1989927292 stripped
 MonoBehaviour:
@@ -28933,6 +29523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshProTexts:
   - {fileID: 881784097}
+  - {fileID: 1387399880}
   newSize: 102
 --- !u!1001 &2033271477
 PrefabInstance:

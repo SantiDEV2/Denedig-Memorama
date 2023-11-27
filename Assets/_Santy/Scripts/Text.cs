@@ -8,14 +8,14 @@ public class Text : MonoBehaviour
     [SerializeField] int id;
     public TextManager textManager;
 
-    private void OnEnable()
+    private void Update()
     {
         StartCoroutine(TestCoroutine());
     }
 
     private IEnumerator TestCoroutine()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.1f);
         transform.GetComponent<TextMeshProUGUI>().text = textManager.setText(id);
     }
     

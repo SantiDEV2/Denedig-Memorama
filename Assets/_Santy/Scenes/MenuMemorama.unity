@@ -1668,7 +1668,7 @@ MonoBehaviour:
     IsHidden: 0
   - Type: 0
     Name: 
-    GameObject: {fileID: 719342724}
+    GameObject: {fileID: 0}
     Ordinal: 11
     Priority: 0
     IconType: 103000
@@ -3989,10 +3989,10 @@ RectTransform:
   m_Father: {fileID: 837484753}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -12.194}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -545, y: 130}
-  m_SizeDelta: {x: 360, y: -1030}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 415, y: 130}
+  m_SizeDelta: {x: -1560, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &173973552
 GameObject:
@@ -4302,7 +4302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9996b8165b5925c4e87817723a14ac50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 181
+  id: 18
   textManager: {fileID: 890142640}
 --- !u!222 &190573423
 CanvasRenderer:
@@ -6248,6 +6248,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356437194}
   m_CullTransparentMesh: 1
+--- !u!1 &366525892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 366525894}
+  - component: {fileID: 366525893}
+  m_Layer: 0
+  m_Name: FontManager_22px
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &366525893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366525892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7077eb4ab1267c0428128611d96ff53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMeshProTexts:
+  - {fileID: 1163788755}
+  newSize: 22
+--- !u!4 &366525894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366525892}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5744412375150844288}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &374757088
 GameObject:
   m_ObjectHideFlags: 0
@@ -7012,7 +7059,7 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.81333315}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -9413,10 +9460,10 @@ RectTransform:
   m_Father: {fileID: 837484753}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 8.862163, y: 358.4246, z: 359.8779}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 544, y: 136}
-  m_SizeDelta: {x: 350, y: -1000}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -416, y: 136}
+  m_SizeDelta: {x: -1570, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634402751
 MonoBehaviour:
@@ -9999,50 +10046,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717067165}
   m_CullTransparentMesh: 1
---- !u!1 &719342724
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 719342726}
-  - component: {fileID: 719342725}
-  m_Layer: 0
-  m_Name: Screenshoter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &719342725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719342724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dd6e2ea3bdd61f4497d9acf1085eaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &719342726
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719342724}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.205263, y: -1.6079291, z: -2.5775182}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &735833279
 GameObject:
   m_ObjectHideFlags: 0
@@ -10667,7 +10670,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -100, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778943705
 MonoBehaviour:
@@ -10864,9 +10867,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10875,7 +10878,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 24299872765581257}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10887,7 +10890,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 8919837269136736564}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10899,7 +10902,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 9069789014185163148}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10911,7 +10914,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 3876090358902821778}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10923,7 +10926,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6354697522482372212}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10935,7 +10938,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 5141129180356495093}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10947,7 +10950,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 2932545959567369938}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -10959,7 +10962,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &783955108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12184,10 +12187,10 @@ RectTransform:
   m_Father: {fileID: 1661388919}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960, y: 539.99994}
-  m_SizeDelta: {x: 1919.9999, y: 1079.9999}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 539.99994}
+  m_SizeDelta: {x: 1920, y: 1079.9999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870713870
 MonoBehaviour:
@@ -12373,7 +12376,7 @@ Transform:
   m_Children:
   - {fileID: 4700084435412223672}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &890142640
 MonoBehaviour:
@@ -13161,9 +13164,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13172,7 +13175,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 3436944527788784173}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -13184,7 +13187,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 3752874954999147428}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -13196,7 +13199,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1229431251994814361}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -13208,7 +13211,19 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
+      - m_Target: {fileID: 366525893}
+        m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
+        m_MethodName: ChangeTextSizeAndFont
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 6656082415615198433}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -13220,7 +13235,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1023265662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14331,9 +14346,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14342,7 +14357,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 24299872765581257}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14354,7 +14369,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 8919837269136736564}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14366,7 +14381,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 9069789014185163148}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14378,7 +14393,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 3876090358902821778}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14390,7 +14405,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6354697522482372212}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14402,7 +14417,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 5141129180356495093}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14414,7 +14429,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 2932545959567369938}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -14426,7 +14441,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1114794880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15313,7 +15328,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1196824324
 GameObject:
@@ -16992,7 +17007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 17
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1300323464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18938,9 +18953,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18949,7 +18964,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6193994086040480028}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -18961,7 +18976,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 7372540644393515775}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -18973,7 +18988,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 2850504243210576400}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -18985,7 +19000,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6579858486662864167}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -18997,7 +19012,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 5143792839380739740}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -19009,7 +19024,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1029298451844511136}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -19021,7 +19036,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1482409075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19773,9 +19788,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19967,9 +19982,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19978,7 +19993,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 3436944527788784173}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -19990,7 +20005,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 3752874954999147428}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -20002,7 +20017,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1229431251994814361}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -20014,7 +20029,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6656082415615198433}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -20026,7 +20041,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1556433731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21181,9 +21196,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21192,7 +21207,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6193994086040480028}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21204,7 +21219,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 7372540644393515775}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21216,7 +21231,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 2850504243210576400}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21228,7 +21243,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 6579858486662864167}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21240,7 +21255,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 5143792839380739740}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21252,7 +21267,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
       - m_Target: {fileID: 1029298451844511136}
         m_TargetAssemblyTypeName: TextSizeAndFontChanger, Assembly-CSharp
         m_MethodName: ChangeTextSizeAndFont
@@ -21264,7 +21279,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1702469727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22884,7 +22899,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 424431612}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.81333315
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -23011,9 +23026,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CambioIdioma, Assembly-CSharp
-        m_MethodName: CambiarIdioma
+      - m_Target: {fileID: 890142640}
+        m_TargetAssemblyTypeName: TextManager, Assembly-CSharp
+        m_MethodName: SetLanguage
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23979,7 +23994,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969556981
 GameObject:
@@ -27101,6 +27116,7 @@ Transform:
   - {fileID: 5212784502049213082}
   - {fileID: 162971521395884502}
   - {fileID: 2044637292702285247}
+  - {fileID: 366525894}
   m_Father: {fileID: 4700084435412223672}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
