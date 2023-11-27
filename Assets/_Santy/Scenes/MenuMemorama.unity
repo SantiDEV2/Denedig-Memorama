@@ -26911,7 +26911,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshProTexts:
-  - {fileID: 164139578}
   - {fileID: 634402743}
   - {fileID: 717067168}
   newSize: 62
