@@ -11,7 +11,7 @@ public class TextManager : MonoBehaviour
     private string[] data;
     private void Awake()
     {
-        PlayerPrefs.SetInt("Idioma",1);
+        PlayerPrefs.SetInt("Idioma",0);
         
         /*El numero que se pone en ese player Prefs depende de que idioma es el que quieras elegir en este caso el 0 pertenece a español, 1 a Ingles, 2 a Nahuatl y 3 Maya  */
     }
