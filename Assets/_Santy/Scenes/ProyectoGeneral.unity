@@ -4565,6 +4565,7 @@ MonoBehaviour:
   time: 0
   canvasScoreBoard: {fileID: 880443606}
   puntos: 900
+  sontiempo: {fileID: 1197821525}
 --- !u!4 &391373800
 Transform:
   m_ObjectHideFlags: 0
@@ -4752,6 +4753,7 @@ MonoBehaviour:
   ruleta: {fileID: 381370987}
   rule: {fileID: 1549336579}
   canvascore: {fileID: 880443606}
+  timeCount: {fileID: 391373799}
   pila1: {fileID: 1909759027}
   pila2: {fileID: 1150105611}
   pila3: {fileID: 1351596291}
@@ -6963,6 +6965,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: ButtonEntry
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 391373799}
+        m_TargetAssemblyTypeName: TimeCount, Assembly-CSharp
+        m_MethodName: pausasonidotiempo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &581085385
@@ -11798,6 +11812,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 391373799}
+        m_TargetAssemblyTypeName: TimeCount, Assembly-CSharp
+        m_MethodName: playsonidotiempo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &880872019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15506,7 +15532,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 4678740549009769965, guid: a7d33fa88a80dbc4fbcaca30d9297069, type: 2}
   m_audioClip: {fileID: 8300000, guid: f0ac050fa127f724ea04b14e96d2d92f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -18022,6 +18048,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 391373799}
+        m_TargetAssemblyTypeName: TimeCount, Assembly-CSharp
+        m_MethodName: playsonidotiempo
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

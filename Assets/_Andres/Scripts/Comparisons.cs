@@ -37,6 +37,8 @@ public class Comparisons : MonoBehaviour
 
     public GameObject canvascore;
 
+    public TimeCount timeCount;
+
     //Transforms
     #region
     public Transform pila1;
@@ -154,6 +156,7 @@ public class Comparisons : MonoBehaviour
         timepause = false;
         Cursor.lockState = CursorLockMode.None;
         Cuentalugar = Cuentalugar + 1;
+        timeCount.sontiempo.Play();
         StopAllCoroutines();
     }
 

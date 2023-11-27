@@ -16,6 +16,8 @@ public class TimeCount : MonoBehaviour
 
     public  float puntos = 9999f;
 
+    public AudioSource sontiempo;
+
     public static void GamePaused()//Sonido pausa 
     {
         _isPaused = !_isPaused;
@@ -25,8 +27,20 @@ public class TimeCount : MonoBehaviour
     {
         _isPaused = false;
     }
+
+    public void pausasonidotiempo()
+    {
+        sontiempo.Stop();
+    }
+
+    public void playsonidotiempo()
+    {
+        sontiempo.Play();
+    }
+
     void Start()
     {
+        sontiempo.Play();
         _isPaused = false;
         time = 0;
     }
@@ -59,6 +73,7 @@ public class TimeCount : MonoBehaviour
             time += 0;
             DisplayTime(time);
             print(time);
+            sontiempo.Stop();
             FinalTimeText.text = time.ToString("0") + " segundos";
             Errors.text = Comparisons.errores.ToString(); 
             textScore.text = "" + puntos.ToString("0"); // Actualizar el texto de la puntuación
@@ -70,6 +85,7 @@ public class TimeCount : MonoBehaviour
         {
             time += 0;
             DisplayTime(time);
+            sontiempo.Stop();
         }
     }
 
