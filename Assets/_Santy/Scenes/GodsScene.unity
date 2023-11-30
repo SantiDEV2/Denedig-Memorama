@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSounds:
-  - Clip: {fileID: 8300000, guid: 53c6b8b95e0fa7c4c9fec36e50713440, type: 3}
+  - Clip: {fileID: 8300000, guid: 52eddeec12367004fb65d6fd6d9ed832, type: 3}
     Name: MainMusic
   sfxSounds:
   - Clip: {fileID: 8300000, guid: 1ab75efd7e0c137438572f3f5e7548f1, type: 3}
@@ -8096,7 +8096,7 @@ MonoBehaviour:
       - m_Target: {fileID: 119744388}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -19322,7 +19322,7 @@ MonoBehaviour:
       - m_Target: {fileID: 119744388}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: ChangeScene
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
