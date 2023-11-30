@@ -149,6 +149,7 @@ public class Comparisons : MonoBehaviour
         if (aciertos == 28) //+20 cartas
         {
             canvascore.SetActive(true);
+            Debug.Log("Se activa");
             setcanvascore = true;
         }
 

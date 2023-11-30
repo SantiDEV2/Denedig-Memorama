@@ -9,14 +9,8 @@ EditorBuildSettings:
     path: Assets/_Santy/Scenes/MenuMemorama.unity
     guid: 196e3d93f80b88a47993f03054b9d365
   - enabled: 1
-    path: Assets/_Santy/Scenes/ProyectoGeneral.unity
-    guid: 04e6ac342de4abc4ba4b72d2de912b28
-  - enabled: 0
-    path: Assets/_Andres/Scenes/MenuMemorama1.unity
-    guid: 570282a834e54d6419a7128f056a46a4
-  - enabled: 0
-    path: Assets/_Andres/Scenes/ProyectoGeneral1.unity
-    guid: 3de64979a5d89744daaa21d88d543f64
+    path: Assets/_Santy/Scenes/FoodScene.unity
+    guid: a84dfb79d455e364b9a13ea1d9c73f1a
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 145b431bfb93c394d8fe8ac7c0b61fa9, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: ad58d420f7fcafe4fb48870c82f2dcdf, type: 2}

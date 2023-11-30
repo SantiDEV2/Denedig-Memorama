@@ -17,6 +17,7 @@ public class TimeCount : MonoBehaviour
     public  float puntos = 9999f;
 
     public AudioSource sontiempo;
+    private int i=0;
 
     public static void GamePaused()//Sonido pausa 
     {
@@ -49,11 +50,6 @@ public class TimeCount : MonoBehaviour
     void Update()
     {
         if(_isPaused) return;
-        if(Comparisons.Cuentalugar == 0)
-        {
-            Debug.Log("3");
-        }
-
         if(Comparisons.aciertos < 28 && Comparisons.timepause == false && Comparisons.setcanvas == false)
         {
             time += Time.deltaTime;
@@ -64,8 +60,6 @@ public class TimeCount : MonoBehaviour
             {
                 puntos = 0;
             }
-
-            Debug.Log("1");
         }
         
         if(Comparisons.aciertos >= 28)
@@ -78,7 +72,12 @@ public class TimeCount : MonoBehaviour
             Errors.text = Comparisons.errores.ToString(); 
             textScore.text = "" + puntos.ToString("0"); // Actualizar el texto de la puntuación
             canvasScoreBoard.SetActive(true);
-                        Debug.Log("2");
+
+            if(i == 0)
+            {
+                Settings.Instance.PlaySfx("Final");
+                i++;
+            }
         }
 
         if (Comparisons.timepause == true || Comparisons.setcanvas == true || Comparisons.setcanvascore == true)
@@ -105,5 +104,10 @@ public class TimeCount : MonoBehaviour
         float seconds = Mathf.FloorToInt(TimetoDisplay % 60);
 
         timetext.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    public void ResetFinal()
+    {
+        i = 0;
     }
 }
