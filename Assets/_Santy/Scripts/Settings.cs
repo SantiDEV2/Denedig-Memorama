@@ -130,25 +130,22 @@ public class Settings : MonoBehaviour
         }
     }
 
-    public void ChangeScene()
+    public void ChangeScene(int sceneindex)
     {
         fadecon.SetActive(true);
         fadeimage.CrossFadeAlpha(1, fadetime, false);//Opacidad (0 o 1) // duracion // ignorar TimeScale
         Settings.Instance.PlaySfx("Contador");
+
         StartCoroutine(FadeTruer());
-    }
 
-    private IEnumerator FadeTruer()
-    {
-        yield return new WaitForSeconds(fadetimeout);
-        fadetoscene = true;
-
-        if (fadetoscene == true)
+        IEnumerator FadeTruer()
         {
-            SceneManager.LoadScene(scene);
-        }
+            yield return new WaitForSeconds(fadetimeout);
 
-        StopCoroutine(FadeTruer());
+            SceneManager.LoadScene(sceneindex);
+
+            StopCoroutine(FadeTruer());
+        }
     }
 
     public void RestartScene(string scene)
@@ -156,3 +153,4 @@ public class Settings : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 }
+
