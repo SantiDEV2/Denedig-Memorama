@@ -6773,7 +6773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &228570480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7443,7 +7443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &256175311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8437,7 +8437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &310082925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8742,8 +8742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9996b8165b5925c4e87817723a14ac50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 38
-  textManager: {fileID: 0}
+  id: 0
+  textManager: {fileID: 890142640}
 --- !u!114 &345703332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8764,7 +8764,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continuar
+  m_text: Jugar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1053f5f8a77395e43aef323cf66a55dc, type: 2}
   m_sharedMaterial: {fileID: -2934694450954154301, guid: 1053f5f8a77395e43aef323cf66a55dc, type: 2}
@@ -10132,7 +10132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &461195763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12230,7 +12230,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 8.862163, y: 358.4246, z: 359.8779}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -415.99994, y: 136}
+  m_AnchoredPosition: {x: -415.99988, y: 136}
   m_SizeDelta: {x: -1570, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634402751
@@ -13091,7 +13091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &741752236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16555,7 +16555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1038210929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18309,7 +18309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1142699750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21079,7 +21079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1340946635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22033,7 +22033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1388499074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22987,7 +22987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1524722136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24174,7 +24174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1614643051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26014,7 +26014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1831856222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26164,7 +26164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1836354993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27305,7 +27305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &1934434894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28560,7 +28560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &2019449273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30509,7 +30509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
-  textManager: {fileID: 0}
+  textManager: {fileID: 890142640}
 --- !u!114 &2142172674
 MonoBehaviour:
   m_ObjectHideFlags: 0
